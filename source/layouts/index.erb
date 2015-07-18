@@ -9,16 +9,13 @@
         <!-- Use title if it's in the page YAML frontmatter -->
         <title><%= current_page.data.title ? ( "cwervo.com - " + current_page.data.title.to_s ) : "cwervo.com" %></title>
 
-        <%= stylesheet_link_tag "normalize", "main" %>
+        <%= stylesheet_link_tag "normalize", "index" %>
         <%= javascript_include_tag  "all" %>
     </head>
 
     <body class="<%= page_classes %>">
+        <div class="index-nav-container">
         <%= partial "nav-list"%>
-        <section class="blog">
-            <aside></aside>
-            <%= yield %>
-            <article></article>
-        </section>
+        </div>
     </body>
 </html>

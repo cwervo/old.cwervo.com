@@ -1,0 +1,23 @@
+@import "base";
+
+nav {
+    overflow: scroll;
+    bottom: 0;
+    .close {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+nav ul li {
+    // height:  5vw;
+    line-height:  2em;
+    a:hover {
+        letter-spacing: 4vh;
+        @media ( $nav-horizontal ) {
+            // letter-spacing: 8vh;
+        }
+    }
+}
+
+

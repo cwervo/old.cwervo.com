@@ -1,0 +1,22 @@
+@import "base";
+
+@media ($nav-horizontal) {
+    nav li {
+        $nav-link-size: 3vw;
+        // font-size: $nav-link-size;
+        // line-height: 3.5 + $nav-link-size;
+        padding-left: 0.5em;
+        float: left;
+            @media ( $nav-horizontal ) {
+                $nav-link-size: 3vw;
+                font-size: $nav-link-size;
+                line-height: 3.5 + $nav-link-size;
+                padding-left: 0.5em;
+            }
+    }
+    nav ul {
+        @media ( $nav-horizontal  ) {
+            margin-left: 10vw;
+        }
+    }
+}
