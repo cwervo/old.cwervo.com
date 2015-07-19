@@ -13,9 +13,9 @@ nav ul li {
     // height:  5vw;
     line-height:  2em;
     a:hover {
-        letter-spacing: 4vh;
+        letter-spacing: 4vw;
         @media ( $nav-horizontal ) {
-            // letter-spacing: 8vh;
+            letter-spacing: 24vw;
         }
     }
 }

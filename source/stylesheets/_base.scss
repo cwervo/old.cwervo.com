@@ -1,9 +1,10 @@
-@import "variables";
 @import "colors";
 @import "bourbon/bourbon";
 @import "neat/neat";
 
 @charset "utf-8";
+
+$nav-horizontal: "min-width: 800px";
 
 * {
     // background-color: rgba(15, 15, 50, 0.2);
