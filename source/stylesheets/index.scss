@@ -11,11 +11,18 @@ nav {
 
 nav ul li {
     // height:  5vw;
+    font-size: 8vh;
     line-height:  2em;
-    a:hover {
-        letter-spacing: 4vw;
-        @media ( $nav-horizontal ) {
-            letter-spacing: 24vw;
+    a {
+        white-space: nowrap;
+        &:hover {
+            // letter-spacing: 0.5vw;
+            @media ( $nav-horizontal ) {
+                letter-spacing: 2.5vw;
+            }
+            @media ( min-width: 1000px) {
+                letter-spacing: 5vw;
+            }
         }
     }
 }

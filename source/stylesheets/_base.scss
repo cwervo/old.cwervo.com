@@ -10,7 +10,7 @@ $nav-horizontal: "min-width: 800px";
     // background-color: rgba(15, 15, 50, 0.2);
 }
 
-$nav-link-size: 7vh;
+$nav-link-size: 4vh;
 $nav-line-height: 2 + $nav-link-size;
 
 body {
@@ -51,15 +51,10 @@ nav {
 
     a {
         border-bottom: none;
+        // white-space: nowrap;
         &:hover {
             color: $white;
-            letter-spacing: 2vw;
-            // @media (min-width: 400px) {
-                //     letter-spacing: 1vw;
-            // }
-            @media ( $nav-horizontal ) {
-                letter-spacing: 0.5vw;
-            }
+            letter-spacing: 0.5vw;
         }
 
         &.close {

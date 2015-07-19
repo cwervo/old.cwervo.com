@@ -1,22 +1,23 @@
 @import "base";
 
-@media ($nav-horizontal) {
-    nav li {
-        $nav-link-size: 3vw;
-        // font-size: $nav-link-size;
-        // line-height: 3.5 + $nav-link-size;
-        padding-left: 0.5em;
-        float: left;
-            @media ( $nav-horizontal ) {
-                $nav-link-size: 3vw;
-                font-size: $nav-link-size;
-                line-height: 3.5 + $nav-link-size;
-                padding-left: 0.5em;
-            }
+nav li a:hover {
+    @media ( min-width: 400px ) {
+        letter-spacing: 3vw;
     }
+    @media ( $nav-horizontal ) {
+        letter-spacing: 1vw;
+    }
+}
+
+@media ($nav-horizontal) {
     nav ul {
-        @media ( $nav-horizontal  ) {
-            margin-left: 10vw;
+        margin-left: 10vw;
+        li {
+
+        font-size: 2.5vw;
+        line-height: 3.5 + $nav-link-size;
+        padding-right: 0.5em;
+        float: left;
         }
     }
 }
