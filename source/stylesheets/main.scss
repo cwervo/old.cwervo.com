@@ -2,6 +2,7 @@
 
 nav {
     overflow: scroll;
+    border-bottom: 2px solid $blue;
     li a:hover {
         @media ( min-width: 400px ) {
             letter-spacing: 3vw;
@@ -12,14 +13,36 @@ nav {
     }
 }
 
+// Don't show the nav-list by default
+.nav-list-container {
+    display: none;
+    transition: all 0.5s ease-in;
+
+    // Do show it when in the horizontal mode because you have to!
+    @media ($nav-horizontal) {
+        display: block;
+    }
+}
+
+.opened {
+    display: block;
+}
+
 @media ($nav-horizontal) {
-    nav ul {
-        margin-left: 10vw;
-        li {
-            font-size: 2.5vw;
-            line-height: 3.5 + $nav-link-size;
-            padding-right: 0.5em;
-            float: left;
+    nav {
+        padding-bottom: 1em;
+
+        ul {
+            li {
+                font-size: 2.5vw;
+                // line-height: $nav-link-size;
+                padding-right: 2em;
+                float: left;
+            }
+        }
+        .nav-list-container {
+            margin-left: 2vw;
+            // margin-left: 2em;
         }
     }
 }

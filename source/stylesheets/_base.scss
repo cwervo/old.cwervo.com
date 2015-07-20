@@ -6,22 +6,28 @@
 
 $nav-horizontal: "min-width: 800px";
 
-* {
-    // background-color: rgba(15, 15, 50, 0.2);
-}
+// * { background-color: rgba(255, 255, 0, 0.2); }
 
+// Set default navigation link sizes.
 $nav-link-size: 5vh;
-$nav-line-height: 3 + $nav-link-size;
+$nav-line-height: 0 + $nav-link-size;
 
 body {
-    font-family: $lucida-grande;
-    background-color: $grey-light;
+    $helvetica: (Helvetica Neue,Helvetica,sans-serif);
+    font-family: $helvetica;
+    // background-color: $grey-light;
+    background-color: $bg-color;
+    color: $text-color;
+    // color: $grey-light;
+    // margin: 100px;
+    $default-padding: 2em;
+    padding: 0 $default-padding $default-padding $default-padding;
 }
 
 a {
     color: $blue;
     text-decoration: none;
-    border-bottom: 0.1em solid $grey;
+    border-bottom: 0.1em solid $link-bottom;
     letter-spacing: 0;
     transition: all 0.65s ease-in-out;
 
@@ -35,7 +41,7 @@ nav {
     top: 0;
     left: 0;
     right: 0;
-    background-color: $grey;
+    background-color: $bg-color;
 
     ul {
         text-align: center;
@@ -45,7 +51,7 @@ nav {
         li {
             text-align: center;
             font-size: $nav-link-size;
-            line-height: $nav-line-height;
+            // line-height: $nav-line-height;
         }
     }
 
@@ -58,11 +64,12 @@ nav {
         }
 
         &.close {
+            font-size: 2 * $nav-link-size;
             text-align: right;
             min-width: 100%;
             // margin-left: 90%;
             // margin-left: 90%;
-            margin: 2% 0 0 90%;
+            margin: 2% 2% 0 90%;
 
             &:hover {
                 padding: 0;
@@ -78,6 +85,7 @@ nav {
 }
 
 section.blog {
+    font-size: 1.35em;
     z-index: 1;
     margin-top: $nav-line-height * 1.5;
     @media (min-width: 1000px) {
