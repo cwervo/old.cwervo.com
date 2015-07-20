@@ -12,12 +12,12 @@
 
         <%= stylesheet_link_tag "normalize" %>
         <%= stylesheet_link_tag (current_page.data.title ?  'main' : 'index' ) %>
-        <%= javascript_include_tag  "all" %>
+        <%= current_page.data.title ? ( javascript_include_tag  "all" ) : '' %>
     </head>
 
     <body class="<%= page_classes %>">
         <%= partial "nav-list"%>
-        <section class="blog">
+        <section class="content">
             <aside></aside>
             <%= yield %>
             <article></article>
