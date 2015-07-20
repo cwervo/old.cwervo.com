@@ -1,7 +1,6 @@
 @import "base";
 
 nav {
-    overflow: scroll;
     bottom: 0;
     .close {
         display: none;
@@ -18,7 +17,7 @@ nav ul li {
         &:hover {
             // letter-spacing: 0.5vw;
             @media ( $nav-horizontal ) {
-                letter-spacing: 2.5vw;
+                letter-spacing: 3vw;
             }
             @media ( min-width: 1000px) {
                 letter-spacing: 5vw;

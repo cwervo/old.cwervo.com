@@ -1,7 +1,6 @@
 @import "base";
 
 nav {
-    overflow: scroll;
     border-bottom: 2px solid $blue;
     li a:hover {
         @media ( min-width: 400px ) {
@@ -16,16 +15,16 @@ nav {
 // Don't show the nav-list by default
 .nav-list-container {
     display: none;
-    transition: all 0.5s ease-in;
+    transition: all 5s ease-in;
 
     // Do show it when in the horizontal mode because you have to!
     @media ($nav-horizontal) {
         display: block;
     }
-}
 
-.opened {
-    display: block;
+    &.opened {
+        display: block;
+    }
 }
 
 @media ($nav-horizontal) {
