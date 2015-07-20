@@ -62,6 +62,7 @@ set :images_dir, 'images'
 configure :build do
     activate :minify_html
     puts "minified html!"
+    activate :autoprefixer
     activate :minify_css
     puts "minified css!"
     activate :minify_javascript
