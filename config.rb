@@ -53,6 +53,7 @@ configure :development do
 end
 
 set :markdown_engine, :kramdown
+set :markdown, :smartypants => true
 activate :syntax , line_numbers: true
 
 set :css_dir, 'stylesheets'
