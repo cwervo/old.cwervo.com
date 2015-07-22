@@ -1,7 +1,10 @@
-$visual-grid: true;
-$visual-grid-color: red;
-$visual-grid-index: front;
-$visual-grid-opacity: 0.1;
+$debug: false;
+@if $debug {
+    $visual-grid: true;
+    $visual-grid-color: red;
+    $visual-grid-index: front;
+    $visual-grid-opacity: 0.1;
+}
 @import "colors";
 @import "bourbon/bourbon";
 @import "neat/neat";
@@ -104,7 +107,7 @@ section.content{
     // z-index: 1;
     margin-top: $nav-line-height * 1.5;
     @media ($nav-horizontal) {
-    margin-top: $nav-line-height * 0.75;
+        margin-top: $nav-line-height * 0.75;
     }
     @media (min-width: 1000px) {
         padding-top: $nav-line-height * 0.8;
