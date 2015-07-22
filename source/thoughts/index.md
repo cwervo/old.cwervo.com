@@ -1,0 +1,25 @@
+---
+title: Narcissism, Blogging, And Digital Rights
+---
+
+# Narcissism, Blogging, And Digital Rights
+
+---
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+
+~~~ ruby
+collection.each do |thing|
+    blah
+end
+~~~
+
+When I wrote the first two drafts of this piece, I started with references to why I feel guilty about blogging on Medium. About Chris Butterick’s excellent post on how troubling the ethics of this website are. I was going to talk about this fascinating post by Hossein Derakhshan, which made me question the entirety of the ethos of Internet from a new perspective. But there’s plenty of time for talking about the politics of the Internet in later posts. No, what I want to talk about today is why this question even mattered to me in the first place: personal branding, and a narcissism feedback loop.
+
+For a while now my entire identity has hinged on what I do. Not my family, or my friends, or even my accomplishments, but what I do every day. I write code. I draw. I design, teach, learn, read. In short, I’ve built my identity, the narrative that I tell myself, around what I’m doing today, tomorrow, next week, and next year. What this means for blogging is that I have a certain expectation of myself - I’m a (neophyte) web designer, and maybe even more importantly, a computer science student. I should be able to maintain my own website and produce production quality content and software, it’s what I do, or I’m supposed to do, right? And after all, people I really admire all have their own blogs
+
+
+At the beginning of this year I found this insightful piece by Chris Butterick, who I first found out about while I was looking for something completely unrelated - specifically, I was searching for practical projects made with a family of programming languages known as Lisps (I’m sure that’s way more information than you wanted to know about that, but it was interesting, I promise). So, when I find someone who also has a passion for two things I’m deeply interested in (in this case, design and programming) I perk up. I happen to agree with the vast majority of Butterick’s The billionaire’s typewriter, but most particularly his approach to the "ethics of design”.
+If you know me in real life, you’ll know that I have a tendency to politicize the Internet, and software in general, pretty quickly. I do this not because I want to put people off, but exactly because I want you to understand and be intimately excited about something that you use every, single, day. When you interact with Twitter, Facebook, Instagram, or a Medium post, whether you’re in an official app, a third-party client, or a browser, what you’re doing (what you’re actually doing) is using the Internet, sending simple (or complex, but whatever) server requests. And all these things, at their core, are successful because they are of the web, that is, they exist as openly accessible conduits for information true to the ethos of an open Internet. The problem, now, is that these products aren’t 100% “of the web,” they’re not filly open; you might say they’re only half-open, a stray door left ajar to the homogenous worlds of Facebook, Twitter, and, yes, even Medium. Beyond the privacy and ownership concerns, beyond the ethics of social data generation, beyond the concerns brought by systems of monetization through monitoring, beyond all these incredibly serious issues, we still come back to the core of what the web is doing, or is supposed to be doing anyway: allowing people to express themselves. This wraps around to Butterick’s ethics of the design in that Medium, arguably in the same way Facebook has stripped social networks of personalization and granular privacy, or Twitter has stripped the larger social dialogue of managed access (read: harassment is rampant, so much so that the former CEO admitted as much earlier this year), Medium’s crushing blow is that it restricts the design of my words, your words, our words, in the name of systematization. Medium’s created an accessible platform, but maybe they’ve gone too far in their stripping out the power that the raw Internet used to give people.
+The morning I began writing this post everything got more complicated when I read a fascinating post by Hossein Derakhshan on how the Internet has changed in his time away from it as a prisoner, imprisoned for something very of-the-Internet: blogging. And yet, after reading Derakhshan’s post, the fact remains — he posted that on Medium. What Medium has done, arguably, is provide a centralized place for disparate voices. Only time will tell if we can, if we want to or need to, break out of this centralization of voice and the homogeny of design, or if Medium might grow as people recognize the need for diversity in design to most effectively convey the disparate voices Medium is hoping to host. But for the time being, I'm giving in. I'm going to be using Medium to write my thoughts. May you have mercy on my digital soul.
