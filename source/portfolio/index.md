@@ -2,7 +2,16 @@
 title: Portfolio
 ---
 
-Returns null if no matches are found; otherwise, it returns the first matching element.
+
+# one two three
+
+## one two three
+
+### one two three
+
+#### one two three
+
+Returns null if no matches are _found_; otherwise, it returns the first matching element.
 
 If the selector matches an ID and this ID is erroneously used several times in the document, it returns the first matching element.
 
