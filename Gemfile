@@ -10,6 +10,8 @@ gem 'middleman-deploy'
 gem 'middleman-minify-html'
 gem 'middleman-autoprefixer'
 gem 'middleman-syntax'
+gem 'middleman-blog'
+gem 'nokogiri'
 gem 'bourbon'
 gem 'neat'
 

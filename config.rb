@@ -47,6 +47,12 @@
 #   end
 # end
 
+activate :blog do |blog|
+    blog.prefix = "thoughts"
+    blog.layout = "blog"
+    blog.sources= "{year}/{month}/{day}/{title}.html"
+end
+
 # Reload the browser automatically whenever files change
 configure :development do
     activate :livereload

@@ -1,12 +1,12 @@
 ---
-title: nope
+title: thoughts
 layout: blog
 ---
 
 <%# This one vvv is for a most-recent panel! %>
 <%# <% value = %x(ls -t -1 source/thoughts| head -5) %>
 <%# This one though vvvv is for  %>
-<%# <% value = %x(ls -l source/thoughts | sed -e "s/  */ /g" | awk '{if (NR!=1) {print}}' | cut -d " " -f 6-) %>
+<%# <% value = %x(ls -lrt `find source/thoughts -mindepth 3 -not -empty -type d` | sed -e "s/  */ /g" | awk '{if (NR!=1) {print}}' | cut -d " " -f 6-) %>
 <%# <% value.split("\n").each do |data|%>
 <%#     <% metadata = data.split(" ")%>
 <%#     <% for i in metadata.length%>
@@ -14,9 +14,37 @@ layout: blog
 <%#     <% end %>
 
 <%# <% value = %x(ls -t -1 source/thoughts| head -5) %>
-<% value = %x(ls -t -1 source/thoughts) %>
-<% value.split("\n").each do |filename|%>
-    <% filename = File.basename(filename, '.*') %>
-    <% filename = File.basename(filename, '.*') %>
-<%= "[#{filename.gsub('-',' ').split.map(&:capitalize).join(' ')}](#{filename}.html)\n" %>
+<%# <% value = %x(ls -t -1 `find source/thoughts -mindepth 3 -not -empty -type d`) %>
+
+<%# <!-- This, below, is experimental still! -- >
+<%# <% value = %x(ls -lrt `find source/thoughts -mindepth 3 -not -empty -type d` | sed -e "s/  */ /g" | awk '{if (NR!=1) {print}}' | cut -d " " -f 6-) %>
+<%# <% value.split("\n").each do |filename|%>
+<%#     <% filename = File.basename(filename, '.*') %>
+<%#     <% filename = File.basename(filename, '.*') %>
+<%# <%= "[#{filename.gsub('-',' ').split.map(&:capitalize).join(' ')}](#{filename}.html)\n" %>
+<%# <% end %>
+
+<% blog.articles[0...5].each do |article| %>
+<div>
+<a href="<%= article.url %>"><%= article.title %></a>
+<time><%= article.date.strftime('%b %e %Y') %></time>
+
+
+<!-- Meh, you don't really need this summary.
+<%# <%= article.summary %>
+<a href="<%= article.url %>">Read more</a> -->
+</div>
 <% end %>
+
+<ul>
+  <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+    <li>
+      <h5><%= year %></h5>
+      <ul>
+        <% articles.each do |article| %>
+          <li><a href="<%= article.url %>"><%= article.title %></a></li>
+        <% end %>
+      </ul>
+    </li>
+  <% end %>
+</ul>
