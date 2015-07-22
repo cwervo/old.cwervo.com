@@ -52,6 +52,9 @@ configure :development do
     activate :livereload
 end
 
+set :markdown_engine, :kramdown
+activate :syntax , line_numbers: true
+
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'

@@ -1,4 +1,5 @@
 @import "base";
+@import "highlight";
 
 nav {
     border-bottom: 2px solid $blue;
@@ -7,7 +8,7 @@ nav {
             letter-spacing: 3vw;
         }
         @media ( $nav-horizontal ) {
-            letter-spacing: 1vw;
+            letter-spacing: 0.8vw;
         }
     }
 }
@@ -35,7 +36,7 @@ nav {
             li {
                 font-size: 2.5vw;
                 // line-height: $nav-link-size;
-                padding-right: 2em;
+                padding-right: 1.25em;
                 float: left;
             }
         }

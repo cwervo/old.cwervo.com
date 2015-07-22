@@ -1,0 +1,56 @@
+/*doc
+---
+title: "Highlighting Code!"
+// category: Highlighting
+---
+```haml_example
+:markdown
+    ~~~ ruby
+    "dog".split("")     #=>  ["d",  "o",  "g"]
+    ~~~
+```
+ */
+<%= Rouge::Themes::Monokai.render(:scope => '.highlight') %>
+<%# Override Rouge defaults #%>
+.gutter.gl { padding: 0px 0px 0px 0px;}
+.code { padding: 0px; }
+.highlight table td { padding: 0px; }
+pre { border: none; }
+
+pre {
+    padding: 0px 8px 0px 12px;
+    line-height: 23px;
+    /* Force line numbers to match up with code */
+    white-space: pre;
+    overflow-x: auto;
+
+}
+
+.highlight td {
+    //.lineno { color: #409} // Rouge linenos
+    padding: 8px 15px;
+
+}
+
+.gl {
+    /* Stop line numbers being selected */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Control background colors for code blocks */
+.highlight, pre,
+code /* Inline code's bg */ {
+    <%# background-color: #eeeeff;%>
+    <%# color: black %>
+}
+
+.highlight {
+    /* Scroll code window */
+    overflow: scroll;
+    min-width: 100%;
+}
