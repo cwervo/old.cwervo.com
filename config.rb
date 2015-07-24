@@ -47,6 +47,8 @@
 #   end
 # end
 
+Time.zone = "Eastern Time (US & Canada)"
+
 activate :blog do |blog|
     blog.prefix = "thoughts"
     blog.layout = "blog"
