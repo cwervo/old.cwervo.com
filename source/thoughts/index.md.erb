@@ -1,8 +1,12 @@
 ---
-title: thoughts
-layout: blog
+title: Thoughts
+description: Design so well no one notices you.
 ---
 
+<h1 style="margin-bottom: 0"><%= current_page.data.title %></h1>
+<h3 style="margin-top: 0.1em;"><%= current_page.data.description %></h3>
+
+---
 <%# This one vvv is for a most-recent panel! %>
 <%# <% value = %x(ls -t -1 source/thoughts| head -5) %>
 <%# This one though vvvv is for  %>
@@ -48,3 +52,21 @@ layout: blog
     </li>
   <% end %>
 </ul>
+
+<% recent_count = 5%>
+<% number = ( blog.articles.length < recent_count) ? blog.articles.length : recent_count %>
+
+<% unless number < 1 %>
+## <%= number %> Most Recent Posts!
+
+<% blog.articles[0...number].each do |article| %>
+  <article class="article-sample" style="background-color: #222; padding: 0.5em 1em; border-radius: 20px">
+    <h4>
+      <a href="<%= article.url %>"><%= article.title %></a>
+      <time><%= article.date.strftime('%b %e %Y') %></time>
+    </h4>
+
+    <%= article.summary(170) %><a href="<%= article.url %>">Read more</a>
+  </article>
+<% end %>
+<%end%>
