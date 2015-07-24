@@ -11,6 +11,16 @@ $debug: false;
 
 @charset "utf-8";
 
+::-moz-selection {
+    background-color: $blue;
+    color: $white;
+}
+
+::selection {
+    background-color: $blue;
+    color: $white;
+}
+
 $nav-horizontal: "min-width: 800px";
 
 // * { background-color: rgba(255, 255, 0, 0.2); }
@@ -102,7 +112,7 @@ nav {
     }
 }
 
-section.content{
+section.content {
     font-size: 1.25em;
     // z-index: 1;
     margin-top: $nav-line-height * 1.5;
@@ -114,11 +124,11 @@ section.content{
     }
     @include outer-container;
 
-    aside {
-        @include span-columns(4);
-    }
+    // aside {
+    //     @include span-columns(4);
+    // }
 
     article {
-        @include span-columns(8);
+        @include span-columns(12);
     }
 }

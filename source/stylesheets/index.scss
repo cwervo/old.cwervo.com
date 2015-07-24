@@ -9,9 +9,9 @@ nav {
 }
 
 nav ul li {
-    // height:  5vw;
+    // I have no idea why these magic numbers work, which is awful TODO research!
     font-size: 8vh;
-    line-height:  2em;
+    line-height:  1.8em;
     a {
         white-space: nowrap;
         &:hover {
