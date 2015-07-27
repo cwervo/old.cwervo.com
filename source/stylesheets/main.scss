@@ -3,12 +3,15 @@
 
 nav {
     border-bottom: 4px solid $blue;
+    li {
+        display: block;
+    }
     li a:hover {
         @media ( min-width: 400px ) {
             letter-spacing: 3vw;
         }
         @media ( $nav-horizontal ) {
-            letter-spacing: 0.8vw;
+            letter-spacing: 0.5vw;
         }
     }
 }
@@ -37,7 +40,7 @@ nav {
                 font-size: 2.5vw;
                 // line-height: $nav-link-size;
                 padding-right: 1.25em;
-                float: left;
+                display: inline-block;
             }
         }
         .nav-list-container {
