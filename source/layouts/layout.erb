@@ -27,10 +27,10 @@
 
 
 <%= partial "nav-list"%>
-<section class="content">
-    <aside></aside>
-    <article>
+<section class="content-wrapper">
+    <section class="content">
         <%= yield %>
         <%= current_article ? "" : "</article></section>" %>
+    </section>
 </body>
 

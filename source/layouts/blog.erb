@@ -1,18 +1,44 @@
 <% wrap_layout :layout do %>
-    <h1><%= current_page.data.title %></h1>
+    <!--
+    <aside>
+        Andres Cuervo
+    <% recent_count = 5%>
+    <% number = ( blog.articles.length < recent_count) ? blog.articles.length : recent_count %>
+
+        <% unless number < 1 %>
+            <h4><%= number %> Most Recent Posts!</h4>
+            <hr>
+
+        <% blog.articles[0...number].each do |article| %>
+        <article class="article-sample" style="background-color: #222; padding: 0.2em 0.4em; border-radius: 10px; witdth: 100%">
+            <h5>
+            <a style="float: right" href="<%= article.url %>"><%= article.title %></a>
+            <br>
+            <time style="float: right" ><%= article.date.strftime('%b %e %Y') %></time>
+            </h5>
+
+        </article>
+        <% end %>
+        <%end%>
+    </aside> -->
+    <article>
+    <h1 class="blog-title"><%= current_page.data.title %></h1>
+    <h4 class="blog-description"><%= current_page.data.description%></h4>
     <hr>
     <%= yield %>
     <br/>
-    --
-    <%= current_page.data.date ? "Andres Cuervo, " + current_page.data.date : 'Andres Cuervo' %>
+    <span style="float: right;">
+    — Andres Cuervo
+    </span>
 </article>
         </section>
-        <aside id="social-stuff">
+        <section id="social-stuff">
+            <h2 style="display: inline;">Want to share this post?</h2>
             <%url = "http://cwervo.com/" + current_page.path%>
             <a class="twitter-share-button"
                 href="https://twitter.com/intent/tweet?url=<%= url.to_s %>&text=I just read:&via=acwervo">Tweet this!</a>
             <div class="fb-share-button" data-href="<%= url.to_s %>" data-layout="button_count"></div>
-    </aside>
+    </section>
     <section id="comments">
         <h1 style="width: 100%;">diqus comments and social share links and stuffff goes here! :D</h1>
     </section>
