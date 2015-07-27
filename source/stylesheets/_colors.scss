@@ -1,10 +1,14 @@
 // Colors.scss
 $blue: #2EAFAC;
+// $blue: #124E4C;
 $black: #333;
 $grey: #555;
+$grey: #525252;
 $white: #F8F8F8;
 
 // Site Wide Values
 $bg-color: $black;
 $text-color: $white;
+// $bg-color: $white;
+// $text-color: $black;
 $link-bottom: lighten( $bg-color, 25% );

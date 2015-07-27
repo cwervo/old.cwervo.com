@@ -9,6 +9,16 @@ $debug: false;
 @import "bourbon/bourbon";
 @import "neat/neat";
 
+$nav-horizontal: "min-width: 800px";
+
+%center {
+    @include span-columns(12);
+    @media ( $nav-horizontal  ) {
+        @include span-columns(10);
+        @include shift(1)
+    }
+}
+
 @charset "utf-8";
 
 ::-moz-selection {
@@ -20,8 +30,6 @@ $debug: false;
     background-color: $blue;
     color: $white;
 }
-
-$nav-horizontal: "min-width: 800px";
 
 // * { background-color: rgba(255, 255, 0, 0.2); }
 
@@ -112,8 +120,11 @@ nav {
     }
 }
 
-section.content {
-    font-size: 1.25em;
+section.content-wrapper {
+    font-size: 1.3em;
+    // $content-side-padding: 6em;
+    // padding: 0 $content-side-padding 0 $content-side-padding;
+    line-height: 1.65em;
     // z-index: 1;
     margin-top: $nav-line-height * 1.5;
     @media ($nav-horizontal) {
@@ -124,11 +135,64 @@ section.content {
     }
     @include outer-container;
 
-    // aside {
-    //     @include span-columns(4);
-    // }
-
-    article {
-        @include span-columns(12);
+    aside {
+        visibility: hidden;
+        display: none;
+        @media ( $nav-horizontal ) {
+            @include span-columns(3);
+            visibility: visible;
+            display: inherit;
+        }
     }
+
+    section.content {
+        @extend %center;
+    }
+}
+
+.blog-title {
+    margin-bottom: 0.25em;
+}
+
+blockquote {
+    border-left: 4px solid $white;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+}
+blockquote:before {
+    color: #111;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+blockquote p {
+    display: inline;
+}
+
+.blog-calendar {
+    list-style-type: none;
+    @extend %center;
+}
+
+#social-stuff {
+    @extend %center;
+}
+
+#comments {
+    @extend %center;
+}
+
+li.card {
+    list-style-type: none;
+    background-color: blue;
+    // margin: 0.1em;
+    // height: 10%;
+    // width: 10%;
+  // @include span-columns(9);
+  // @include omega(1n);
+  @media ($nav-horizontal) {
+    @include span-columns(3);
+      @include omega(4n)
+  }
 }
