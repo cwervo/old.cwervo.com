@@ -1,12 +1,10 @@
 ---
 title: Thoughts
-description: Design so well no one notices you.
+description: A collection of words, most of them mine.
 ---
 
 <h1 style="margin-bottom: 0"><%= current_page.data.title %></h1>
 <h3 style="margin-top: 0.1em;"><%= current_page.data.description %></h3>
-
----
 <%# This one vvv is for a most-recent panel! %>
 <%# <% value = %x(ls -t -1 source/thoughts| head -5) %>
 <%# This one though vvvv is for  %>
@@ -28,31 +26,6 @@ description: Design so well no one notices you.
 <%# <%= "[#{filename.gsub('-',' ').split.map(&:capitalize).join(' ')}](#{filename}.html)\n" %>
 <%# <% end %>
 
-<% blog.articles[0...5].each do |article| %>
-<div>
-<a href="<%= article.url %>"><%= article.title %></a>
-<time><%= article.date.strftime('%b %e %Y') %></time>
-
-
-<!-- Meh, you don't really need this summary.
-<%# <%= article.summary %>
-<a href="<%= article.url %>">Read more</a> -->
-</div>
-<% end %>
-
-<ul>
-  <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
-    <li>
-      <h5><%= year %></h5>
-      <ul>
-        <% articles.each do |article| %>
-          <li><a href="<%= article.url %>"><%= article.title %></a></li>
-        <% end %>
-      </ul>
-    </li>
-  <% end %>
-</ul>
-
 <% recent_count = 5%>
 <% number = ( blog.articles.length < recent_count) ? blog.articles.length : recent_count %>
 
@@ -70,3 +43,18 @@ description: Design so well no one notices you.
   </article>
 <% end %>
 <%end%>
+
+<ol class="blog-calendar">
+  <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+    <li>
+      <h5><%= year %></h5>
+      <ul>
+        <% articles.each do |article| %>
+          <li><a href="<%= article.url %>"><%= article.title %></a></li>
+        <% end %>
+      </ul>
+    </li>
+  <% end %>
+</ul>
+
+

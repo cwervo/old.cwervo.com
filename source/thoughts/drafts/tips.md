@@ -3,6 +3,9 @@ title: Tips And Stuff
 published: flase;
 ---
 
+jdslfk;a
+jaf;adjsfldsakfjlksdjfsdaf
+
 ~~~ sh
 ls -lrt `find source/thoughts -mindepth 3 -not -empty -type d` |
 sed -e "s/  */ /g" |
