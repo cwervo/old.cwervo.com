@@ -52,7 +52,8 @@ Time.zone = "Eastern Time (US & Canada)"
 activate :blog do |blog|
     blog.prefix = "thoughts"
     blog.layout = "blog"
-    blog.sources= "{year}/{month}/{day}/{title}.html"
+    blog.sources= "{year}/{month}/{title}.html"
+    blog.permalink = "{year}/{month}/{title}.html"
 end
 
 # Reload the browser automatically whenever files change
