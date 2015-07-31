@@ -1,11 +1,12 @@
 ---
 title: Contact
 ---
-Why, hello there!
 
-You can reach me in a few places:
+# You can reach me in a few places:
 
-(holy crap black/white is gross, fix itttttttt - throw the blue into the mix :)
+<!-- (holy crap black/white is gross, fix itttttttt &#45; throw the blue into the mix -->
+<!-- &#45;&#45; use css w/ icon SVGs to make them white? Also lookup srcset image so it loads -->
+<!-- better on mobile! :) -->
 
 <style>
 .contact-list {
@@ -19,38 +20,28 @@ You can reach me in a few places:
     border-radius: 50%;
     text-align: center;
     color: black;
-    // background-color: white;
-    // background-size:   cover;
-    // background-repeat: no-repeat;
-    // background-position: center center;
-}
-#bubble-email {
-    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/At_Sign_Nimbus.svg/500px-At_Sign_Nimbus.svg.png');
+    background-color: #2EAFAC;
     background-color: white;
     background-size:   cover;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+.contact-list > a {
+    border-bottom: none;
+}
+
+#bubble-email {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/At_Sign_Nimbus.svg/500px-At_Sign_Nimbus.svg.png');
 }
 #bubble-twitter {
-    background: url('https://cdn1.iconfinder.com/data/icons/simple-icons/4096/twitter-4096-black.png');
-    background-color: white;
-    background-size:   cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    background-image: url('https://cdn1.iconfinder.com/data/icons/simple-icons/4096/twitter-4096-black.png');
 }
 #bubble-github {
-    background: url('http://dev.bowdenweb.com/a/fonts/symbols/pictonic/svgs/github-01.svg');
-    background-color: white;
-    background-size:   cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    background-image: url('http://dev.bowdenweb.com/a/fonts/symbols/pictonic/svgs/github-01.svg');
 }
 #bubble-linkedin {
-    background: url('https://cdn1.iconfinder.com/data/icons/simple-icons/4096/linkedin-4096-black.png');
-    background-color: white;
-    background-size:   cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    background-image: url('https://cdn1.iconfinder.com/data/icons/simple-icons/4096/linkedin-4096-black.png');
 }
 
 #qontacto-iframe {
@@ -60,13 +51,13 @@ border: none;
 }
 </style>
 <ul class="contact-list">
-    <li id="bubble-email" class="contact-bubble">email</li>
-    <li id="bubble-twitter" class="contact-bubble">twitter</li>
-    <li id="bubble-github" class="contact-bubble">github</li>
-    <li id="bubble-linkedin" class="contact-bubble">linkedin</li>
+    <a href="mailto:andrescuervor@gmail.com"><li id="bubble-email" class="contact-bubble">email</li></a>
+    <a href="https://twitter.com/acwervo"><li id="bubble-twitter" class="contact-bubble">twitter</li></a>
+    <a href="http://github.com/AndresCuervo/"><li id="bubble-github" class="contact-bubble">github</li></a>
+    <a href="https://www.linkedin.com/in/andcuervo"><li id="bubble-linkedin" class="contact-bubble">linkedin</li></a>
 </ul>
 
-Or leave me a message right here:
+# Or leave me a message right here:
 
 <iframe id="qontacto-iframe" src="http://www.qontacto.com/f/55b6715ea2f19c2f4a000065"
 data-aem="andrescuervor@gmail.com" ></iframe>
