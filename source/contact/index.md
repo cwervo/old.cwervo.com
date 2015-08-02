@@ -8,54 +8,21 @@ title: Contact
 <!-- &#45;&#45; use css w/ icon SVGs to make them white? Also lookup srcset image so it loads -->
 <!-- better on mobile! :) -->
 
-<style>
-.contact-list {
- text-align: center;
- width: 100%;
-}
-.contact-bubble {
-    display: inline-block;
-    width: 10vw;
-    height: 10vw;
-    border-radius: 50%;
-    text-align: center;
-    color: black;
-    background-color: #2EAFAC;
-    background-color: white;
-    background-size:   cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
 
-.contact-list > a {
-    border-bottom: none;
-}
+<!-- FIX THE STYLING ON THESE AND MALE VERTICAL ONCE THEY GET TO SMALL (MAKE BIGGER TOO BY DEFAULT) -->
 
-#bubble-email {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/At_Sign_Nimbus.svg/500px-At_Sign_Nimbus.svg.png');
-}
-#bubble-twitter {
-    background-image: url('https://cdn1.iconfinder.com/data/icons/simple-icons/4096/twitter-4096-black.png');
-}
-#bubble-github {
-    background-image: url('http://dev.bowdenweb.com/a/fonts/symbols/pictonic/svgs/github-01.svg');
-}
-#bubble-linkedin {
-    background-image: url('https://cdn1.iconfinder.com/data/icons/simple-icons/4096/linkedin-4096-black.png');
-}
-
-#qontacto-iframe {
-width: 100%;
-height:414px;
-border: none;
-}
-</style>
 <ul class="contact-list">
-    <a href="mailto:andrescuervor@gmail.com"><li id="bubble-email" class="contact-bubble">email</li></a>
-    <a href="https://twitter.com/acwervo"><li id="bubble-twitter" class="contact-bubble">twitter</li></a>
-    <a href="http://github.com/AndresCuervo/"><li id="bubble-github" class="contact-bubble">github</li></a>
-    <a href="https://www.linkedin.com/in/andcuervo"><li id="bubble-linkedin" class="contact-bubble">linkedin</li></a>
+    <li id="email" class="logo svg"><a href="mailto:andrescuervor@gmail.com">E mail</a></li>
+    <li id="twitter" class="contact-bubble"><a href="https://twitter.com/acwervo">Twitter</a></li>
+    <li id="github" class="contact-bubble"><a href="http://github.com/AndresCuervo/">Github</a></li>
+    <li id="linkedin" class="contact-bubble"><a href="https://www.linkedin.com/in/andcuervo">LinkedIn</a></li>
 </ul>
+<!-- <ul class="contact&#45;list"> -->
+<!--     <a href="mailto:andrescuervor@gmail.com"><li id="email" class="logo svg">eeemail</li></a> -->
+<!--     <a href="https://twitter.com/acwervo"><li id="twitter" class="contact&#45;bubble">twitter</li></a> -->
+<!--     <a href="http://github.com/AndresCuervo/"><li id="github" class="contact&#45;bubble">github</li></a> -->
+<!--     <a href="https://www.linkedin.com/in/andcuervo"><li id="linkedin" class="contact&#45;bubble">linkedin</li></a> -->
+<!-- </ul> -->
 
 # Or leave me a message right here:
 
