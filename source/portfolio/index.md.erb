@@ -1,0 +1,59 @@
+---
+title: Portfolio
+---
+
+
+<!-- Need to make card&#45;picture,&#45;title,&#45;description,&#45;hover, and auto reveal those -->
+<!-- at the single&#45;column size! -->
+
+<!--
+Note: While you're seeing this unfinished site, here's a fun fact - the
+background color for the elements below is called `wheat`. It's one of my
+favorite web safe color names (closely followed by <code style="color:
+        papayawhip;">papayawhip</code>).
+-->
+
+<!-- TODO: Use ERB to keep an hash (name&#45;of&#45;project : array holding image, date, and short description!) -->
+<ul>
+
+<% cards = [
+    # CSRC
+    ["Oberlin Community Service Resource Center - End Of The Year Celebration",
+     "Spring 2015",
+     "Designed communications materials for the event, including an email template, postcard invitation, and pamphlet",
+     "/images/csrc-end-of-year-celebration-2015.png",
+     "Image of postcard and pamphlet created for Oberlin Community Services' End Of The Year Celebration, 2015."],
+    # Oberlin Book Co-op
+    ["Oberlin Book Co-op",
+     "Winter, 2015",
+     "Designer + Front End + Back End",
+     "/images/book-coop-screenshot.png",
+     "Image of the website bookcoop.org which I redesigned in the Winter of 2015.",
+     "http://bookcoop.org"],
+     # Environmental Dashboard
+     ["Oberlin Environmental Dashboard",
+      "Spring 2015 - Ongoing",
+      "Front End Developer and Designer",
+      "/images/environmental-dashboard-screenshot.png",
+      "Image of the website oberlindashboard.org, which I began working on in the Spring of 2015.",
+      "http://www.oberlindashboard.org"],
+      # OCS
+      ["Oberlin Community Services - Youth Resources",
+       "Fall 2013",
+       "Compiled resources, organized them, added them to the site using customized Wordpress plugin",
+       "/images/ocs-screenshot.png",
+       "Image of the Oberlin Community Service website.",
+       "http://www.oberlincommunityservices.org/resources/youth/"]
+] %>
+<% cards.each do |card| %>
+    <div class="card">
+    <div class="card-top">
+    <h1 class="card-name">Project: <%= card[0]%></h1>
+    <h2 class="card-date">Date: <%= card[1]%></h2>
+    </div>
+    <hr/>
+    <div class="card-description">Role: <%= card[2]%></div>
+    <%= card[5] ? '<a href="' + card[5] + '">Link to the website.</a>' : ''%>
+    <img src="<%= card[3]%>" alt="<%= card[4] %>"/>
+    </div>
+<% end %>
