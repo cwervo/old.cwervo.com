@@ -1,0 +1,9 @@
+    <div class="social-buttons">
+        <%url = "http://cwervo.com/" + current_page.path%>
+        <div class="fb-like"
+            data-href="<%= url.to_s %>"
+            data-layout="button_count" data-action="like" data-show-faces="true"
+            data-share="true"></div>
+        <a class="twitter-share-button"
+            href="https://twitter.com/intent/tweet?url=<%= url.to_s %>&text=I just read:&via=acwervo">Tweet this!</a>
+    </div>
