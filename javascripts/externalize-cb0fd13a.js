@@ -1,0 +1,1 @@
+$(window).load(function(){$("a").each(function(){this.host!==location.host&&(external,this.setAttribute("target","_blank"))})});

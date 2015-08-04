@@ -1,0 +1,1 @@
+$(function(){$("#close").click(function(){$(".nav-list-container").toggleClass("opened")})});
