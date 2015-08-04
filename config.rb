@@ -109,9 +109,9 @@ activate :deploy do |deploy|
     # Git Deploy Method
     deploy.method = :git
     # Optional Settings
-    deploy.remote   = 'git@github.com:AndresCuervo/cwervo.com' # remote name or git url, default: origin
+    deploy.remote   = 'origin' # remote name or git url, default: origin
     deploy.branch   = 'deploy' # default: gh-pages
-    deploy.strategy = :submodule      # commit strategy: can be :force_push or :submodule, default: :force_push
+    deploy.strategy = :force_push # commit strategy: can be :force_push or :submodule, default: :force_push
 
     commit_message = `git log --pretty=oneline --abbrev-commit -n1`.strip
 
