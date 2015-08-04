@@ -103,7 +103,7 @@ activate :deploy do |deploy|
     # Rsync Deploy Method
     deploy.method = :rsync
     deploy.host = "cwervo.com"
-    deploy.path = "/home/tinycarr/www"
+    deploy.path = "/home/tinycarr/public_html"
     deploy.user = "tinycarr"
 
     # Git Deploy Method
