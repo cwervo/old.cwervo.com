@@ -100,17 +100,20 @@ end
 
 # Deploy configuration
 activate :deploy do |deploy|
-    deploy.method = :rsync
-    deploy.host = "cwervo.com"
-    deploy.path = "/home/tinycarr/www"
-    deploy.user = "tinycarr"
-    # deploy.method = :git
-    # # Optional Settings
-    # deploy.remote   = 'git@github.com:AndresCuervo/andrescuervo.github.io.git' # remote name or git url, default: origin
-    # deploy.branch   = 'master' # default: gh-pages
-    # deploy.strategy = :submodule      # commit strategy: can be :force_push or :submodule, default: :force_push
+    # Rsync Deploy Method
+    # deploy.method = :rsync
+    # deploy.host = "cwervo.com"
+    # deploy.path = "/home/tinycarr/www"
+    # deploy.user = "tinycarr"
 
-    # commit_message = `git log --pretty=oneline --abbrev-commit -n1`.strip
-    #
-    # deploy.commit_message = commit_message
+    # Git Deploy Method
+    deploy.method = :git
+    # Optional Settings
+    deploy.remote   = 'git@github.com:AndresCuervo/cwervo.com' # remote name or git url, default: origin
+    deploy.branch   = 'deploy' # default: gh-pages
+    deploy.strategy = :submodule      # commit strategy: can be :force_push or :submodule, default: :force_push
+
+    commit_message = `git log --pretty=oneline --abbrev-commit -n1`.strip
+
+    deploy.commit_message = commit_message
 end
