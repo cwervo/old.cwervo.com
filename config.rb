@@ -73,14 +73,20 @@ set :images_dir, 'images'
 
 # Build-specific configuration
 configure :build do
-    # activate :minify_html
+    # Activate :minify_html
     # puts "minified html!"
+
     activate :autoprefixer
     activate :minify_css
-    puts "minified css!"
+    puts "Minified css!"
+
     activate :minify_javascript
-    puts "minified js!"
+    puts "Minified js!"
+
+    # Optimize Images with middleman-imageoptim
+    activate :imageoptim
     activate :gzip
+    puts "All zipped up!"
 
     # Enable cache buster
     activate :asset_hash
