@@ -13,9 +13,9 @@ that](/thoughts/2015/08/about-the-url.html).
 I [build websites](/case-studies/)<!-- , [write](/portflio/writing.html), -->
 and [do design work (web and print)](/portfolio/), mostly for non-profits and
 student organizations. I also blog for [Oberlin
-college](http://blogs.oberlin.edu/Andres.shtml), and maintain [a personal
+College](http://blogs.oberlin.edu/Andres.shtml), and maintain [a personal
 blog](/thoughts/). I do at least 10 hours of community service during the
-academic year at Oberlin college as a part of the [Oberlin Bonner Scholars
+academic year at Oberlin College as a part of the [Oberlin Bonner Scholars
 program](http://new.oberlin.edu/office/bonner-center/cbl-programs/bonner-scholars/),
 in combination with the [Bonner Leader
 program](http://new.oberlin.edu/office/bonner-center/cbl-programs/bonner-leader-program/),
