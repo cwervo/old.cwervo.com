@@ -1,120 +1,156 @@
 ---
-title: Your UI Probably Isn't Intuitive
-description: A few thoughts the term "digital natives."
+title: Your UI Isn't Intuitive
+description: Getting a handle on stratification and user interfaces.
 date: 2015-08-10
-tags: education, learning
+tags:
 ---
 
-**Note**: What I'm talking about here is explicitly geared toward those with a
-focus on universal access to their product, not niche or business wares with
-specific, pre-assumed audiences. Because it's my area of interest, I'm
-particularly focusing on how this affects EdTech, but this applies to any any
-area where you want as many people as possible to be able to interact with your
-product.
-
-Outline:
-
-* 'Digital Native' informs our current understanding of young users, and a
-peripheral understanding that technology is virtually ubiquitous informs our
-understanding of users generally.
-    * This is bullshit, and even kids today can't be assumed to have
-    'digitally native' experiences, that is, access (**need links**) or, for
-    those with access to technology, unfettered personal access in the same way
-    a middle income teenager might (**need links**) .
-    * Can we also take a moment to recognize that this terminology
-    places immigration as an inherently other-ing experience, a label from
-    which people (including disadvantaged youth and anyone who grew up before
-    the rise of the commercial Internet) must always play catch-up. This is not
-    only ignorant of the experiences of immigrants and their ability to
-    contribute to the nations they immigrate to, it's also incredibly
-    appropriative of an experience that has produced trauma for millions,
-    especially in the United States.
-* So what are some things we assume about our users when we understand them as
-digital natives, or as well-adjusted digital immigrants? Well, a few small
-examples might be:
-
-## Icons
-* Icons like the o-so-popular hamburger menu or the save icon. [Icons are
-inherently inaccessible](http://www.nngroup.com/articles/icon-usability/),
-and while you can assume that [2/3rds of you American adult users have a
-smartphone](http://www.pewinternet.org/2015/04/01/us-smartphone-use-in-2015/)
-what about that last 1/3rd? What about the users who are and will have to
-get used to mobile interfaces as smartphone market penetration rises - who
-don't have familiarity with these icons? You can assume anything you want
-about your users' iconographic fluency, but if you really want to make sure
-everyone knows what every piece does, just write it out.
-
-## Keyboard accessibility (it's a double edged sword).
-* On one hand, if someone can't navigate something without the use of a
-keyboard, it can be [a complete
-disaster](http://www.webaxe.org/apples-inaccessibility/). On the other hand,
-if you 
-
----
-
-# End Outline
-
----
-
-The terms "digital native" and "digital immigrant" still informa a lot of how we
-design - even when the man who coined those terms now [disagrees with them
-](http://marcprensky.com/writing/Prensky-Intro_to_From_DN_to_DW.pdf). First,
-what the hell are we talking about when we use the terms digital "immigrant"
-and "native"? Well, if we go by the authors of "Born Digital: Understanding
-The First Generaton of Digital Natives", we get this foggy definition:
+The terms "digital native" and "digital immigrant" still inform a lot of how we
+design, and probably for the worse. First, what are we talking about when we
+use the terms "digital native" and, its inverse, "digital immigrant"? Well, if
+we go by the authors of "Born Digital: Understanding The First Generation of
+Digital Natives", we get this definition of digital natives:
 
 > They were all born after 1980, when social digital technologies, such as
 Usenet and bulletin board systems, came online. They all have access to
 networked digital technologies. And they all have the skills to use those
 technologies.  (Except for the baby—but she’ll learn soon enough.)
 
-I'm certain that in 1980 the sentence "they **all** have access to networked
-digital technologies" wasn't a true statment, but the problem is we're acting
-as though, after three decades of expansion, that sentence is somehow now true.
-We still use the rhetoric of digital natives because we find it convenient to
-understand anyone born after the 1980s as a big group we can target off
-shared knowledge. Unfortunately, the digital revolution was never about equality,
-and in the last 35 years that part hasn't changed.
+Not only is that casting a wide net over generations of people, I'm certain
+that in the 1980's the sentence "they **all** have access to networked digital
+technologies" wasn't a true statement. And, yet, three decades into the period
+of supposed digital nativesl, and we're designing as if that sentence now rings
+true. We still use the of rhetoric of digital natives because we find it
+convenient to understand anyone born after the 1980's as a group, particularly
+a group we can target. Anyone born after 1980 is apparently a part of a
+consumer group with a supposedly  shared set of knowledge and habits that
+constitute a "natural" digital ease. Unfortunately, the digital revolution was
+never equal, and in the last 35 years that part hasn't changed.
 
-There's been a lot of excitement over the concept of digital natives versus the
-old generations, "digital immigrants," as it were. Beside the fact that this
-implies immigration is a narrative of catching-up to the inborn, superior,
-"natives", this terminology has very real effects on how we design things, and
-it'll hold us back, as an industry, back from making the widest possible
-change in people's, but especially children's, lives.
+For the flip side, what does "digital immigrant" mean? Beyond the obvious
+inverse of the digital native definition (i.e. anyone born before the 1980's),
+being a digital immigrant carries with it a way of understand how one relates
+to technology. Because a digital immigrant apparently lacks a life long, deep
+seated exposure to technology, there's the sense that digital immigration is a
+hardship: it's about learning and keeping up with kids whose technology is
+increasingly affecting everyone's lives.
 
-There are a few things you can assume all kids will be familiar with in your
-new app, right? Like, icons:
+---
 
-* The save icon (even kids who don't know what a floppy disc is know what it
-looks like, because they use computer's every day!)
-* The "hamburger button," an o-so popular mobile design icon that now shows
-up in both mobile and desktop interfaces.
-* Keyboard shortcuts - because everybody has the ability to use keyboards like
-a long-fingered computer whiz.
-* I could go on and on.
+## A Note On Vocabulary
 
-We take a lot of these things for granted (I know I do, every day), because
-these elements are ubiquitous to our lives. But the things is, there are still
-people who don't have regular, intimate access to computers or the latest
-mobile technology. When **some percentage, find statistics for this** of kids
-come into a class room and have to deal with an interface that has symbols
-they don't inherently recognize, you're going to have a much tougher time
-getting that kid to use your app as their main means of education.
+Let's also take a moment to recognize that this terminology on the whole marks
+immigration as an inherently other-ing experience. It’s a label for a group
+defined by their struggle to assimilate with supposed digital natives. This is
+not only ignorant of the experiences of immigrants and their ability to
+contribute and thrive in the nations they immigrate to, it's also incredibly
+appropriative of an experience that has produced trauma for billions of people.
+I’m using the phrase here because it’s a vocublary I am critiquing, but it
+should be ntoes that not only is the design that comes out of the “digital
+native/immigrant” dichotomy sub-par, the terms themselves are disrespectful at
+best. Even when the man who coined these terms now [disagrees with
+them](http://marcprensky.com/writing/Prensky-Intro_to_From_DN_to_DW.pdf).
 
-Digital natives exists, but just like we're learning to reject the idea that
-tech is a meritocracy, that everyone can make it if they just "work hard
-enough", we need to unlearn the idea that every child is a digital native, and
-that every adult has a smartphone, or for even those who do have access to
-these technologies, that they use their technology as intimately and
+---
+
+The continued use of these terms in the understanding of uses seems to me like
+the use of meritocracy in the tech word. In a meritocracy, the assumption goes,
+if you're just "smart enough" or work "hard enough" you can be successful in
+tech. This is a myth that ignores the reality: many people don't have the
+access, education, or mentorship necessary to make it in tech. Really, it's
+nothing more than the old ["bootstraps"
+narrative](http://ideas.time.com/2012/09/07/the-myth-of-bootstrapping/) applied
+to digital workers.
+
+There has been push back against this meritocracy though. With the recent surge
+in diversity efforts, VC's and tech companies are now starting to recognize the
+error of a false meritocracy, that women and minorities don't have the same
+access or the same cultural disposition to just "make it." You can't have a
+meritocracy when people don't have the same ability to gain those merits. We
+need to step back and make this same realization about users.
+
+Just as we recognize that future programmers, designers, and executives don't
+always have the means to get into the tech world, not all users have the
+background or the relationship with technology to find supposedly intuitive
+interfaces easy to navigate. If you're making something you want anyone to be
+able to use, then you have to design with as few assumptions as possible, and
+recognize the details that you _assume_ people are familiar with.
+
+So what are some things we assume about users when we understand them as
+digital natives, or as well-adjusted digital immigrants? Well, a couple
+examples might be helpful to demonstrate my point:
+
+## Icons
+
+ [Icons are inherently
+ inaccessible](http://www.nngroup.com/articles/icon-usability/), as they are
+ base ons user's standing familiarity with icon's and their attached meaning.
+ Today,  icons draw from two different previous experiences: the mobile space
+ and 'traditional', technologically ubiquitous icons. In the first category I'm
+ talking about icons like the o-so-popular hamburger menu (☰).   While you can
+ assume that [2/3rds of your American adult users have a
+ smartphone](http://www.pewinternet.org/2015/04/01/us-smartphone-use-in-2015/)
+ what about that last 1/3rd? What about the users who are getting, and those
+ who will have to get, used to mobile interfaces as smartphone market
+ penetration rises - who don't have familiarity with these icons? And what
+ about the world over, the billions of people who will, young and old, be
+ introduced to smart phones and computers (probably in that order) in
+ generations to come? You can't assume someone will be there to show the next
+ person what an icon means when entire communities will be learning, for the
+ first time, how to interact with digital interfaces on a daily basis. 
+
+In the latter group we have icons like the traditional save icon (💾). While a
+lot of users who have had to get used to computer interfaces will be familiar
+with it, question your design decisions with familiar icons as they relate to
+users who might not recognize them: when you put it in the corner and make it
+smaller, to get it "out of the way", are you really just obscuring a critical
+part of your interface for users who might not be used to your
+colorscheme/shading/placement of the icon? And beyond first time computer
+users, think about users who have irregular access to their means of
+technology, those who may not consistently remember that this (💾) means 'save'.
+
+If you really want to make sure everyone knows what every piece of your product
+does, don't assume anything about users' iconographic fluency, and just write
+it out. You could at least make it an option to label every icon for users who
+have trouble recognizing your icons for any of the reasons mentioned above.
+
+## Keyboard Accessibility (A Double Edged Sword).
+
+On one hand, if someone can't navigate something without the use of a keyboard,
+it can be [a complete disaster](http://www.webaxe.org/apples-inaccessibility/).
+On the other hand, if you make something _only_ keyboard accessible, you shut
+out users who prefer the more intuitive mouse or touch screen interfaces. As
+people who work with computers day-in and day-out, I think there's a tendency
+to forget about the possibilities of keyboard-less interaction space. We should
+be designing for both, to best accommodate the full range of user experiences
+whether that means comfortability with lighting quick keyboard shortcuts, or
+anymore intuitive  and fluid touch/pointer interface.  This shouldn't be a pain
+point for your design process, it's an opportunity for you to bring your
+product to as many people as possible, and, excitingly, a way to test your
+abilities as a designer, of interfaces, of experiences, or anything else.
+
+Many people take these things for granted (I know I do, every day), because
+these elements are ubiquitous in our own lives. But, there are still people who
+don't have regular, intimate access to computers or the latest mobile
+technology. When someone is looking for healthcare information on a public
+computer with a browser  When a kid comes into a classroom and has to deal with
+an interface that has symbols they don't inherently ("natively") recognize,
+you're going to have a much tougher time getting that kid to use that interface
+for learning, a process that’s already hard enough.
+
+People resembling digital natives exist, but just like we're learning to reject
+the idea that tech is a meritocracy, that everyone can make it if they just
+"work hard enough", we need to unlearn the idea that every child is a digital
+native, and that every adult has a smartphone, or for even those who do have
+access to these technologies, that they use their technology as intimately and
 consistently as tech advertisements would have you believe. Software is eating
 the world, sure, but the keyword in that phrase is "**is**", meaning present
 tense. Software hasn't eaten the world completely, and it definitely hasn't
-done so evenly across populations. We have to remember that accessibility isn't
-just a feature or a goal - if you want to have an impact in the world, you
-should be designing, build, and testing around every use case, designing
-interfaces that adapt to levels of comfortability and experience with technologies,
-building technologies that work as far down the stack as possible.
+done so evenly across populations. We have to remember that accessibility in
+our interfaces isn't just a feature or a goal - if you want to be able to
+impact anyone with your design, you should be designing, building, and testing
+around every use case, designing interfaces that adapt to levels of
+comfortability and experience with technologies.
 
 <!-- <style> -->
 <!-- li[id^="fn:"]:focus { -->
