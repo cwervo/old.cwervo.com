@@ -50,7 +50,33 @@ keyboard, it can be [a complete
 disaster](http://www.webaxe.org/apples-inaccessibility/). On the other hand,
 if you 
 
-There;s been a lot of excitement over the concept of digital natives versus the
+---
+
+# End Outline
+
+---
+
+The terms "digital native" and "digital immigrant" still informa a lot of how we
+design - even when the man who coined those terms now [disagrees with them
+](http://marcprensky.com/writing/Prensky-Intro_to_From_DN_to_DW.pdf). First,
+what the hell are we talking about when we use the terms digital "immigrant"
+and "native"? Well, if we go by the authors of "Born Digital: Understanding
+The First Generaton of Digital Natives", we get this foggy definition:
+
+> They were all born after 1980, when social digital technologies, such as
+Usenet and bulletin board systems, came online. They all have access to
+networked digital technologies. And they all have the skills to use those
+technologies.  (Except for the baby—but she’ll learn soon enough.)
+
+I'm certain that in 1980 the sentence "they **all** have access to networked
+digital technologies" wasn't a true statment, but the problem is we're acting
+as though, after three decades of expansion, that sentence is somehow now true.
+We still use the rhetoric of digital natives because we find it convenient to
+understand anyone born after the 1980s as a big group we can target off
+shared knowledge. Unfortunately, the digital revolution was never about equality,
+and in the last 35 years that part hasn't changed.
+
+There's been a lot of excitement over the concept of digital natives versus the
 old generations, "digital immigrants," as it were. Beside the fact that this
 implies immigration is a narrative of catching-up to the inborn, superior,
 "natives", this terminology has very real effects on how we design things, and
