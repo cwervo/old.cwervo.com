@@ -90,27 +90,27 @@ should be designing, build, and testing around every use case, designing
 interfaces that adapt to levels of comfortability and experience with technologies,
 building technologies that work as far down the stack as possible.
 
-<style>
-li[id^="fn:"]:focus {
-    padding-top: 12%;
-}
-</style>
-
-This is some text[^1]. Other text[^footnote].
-
-This is some text not written in HTML but in another language!
-
-*[another language]: It's called Markdown
-
-*[HTML]: HyperTextMarkupLanguage
-{:.mega-big}
-
-[^1]: Some *crazy* footnote definition.
-
-[^footnote]:
-    > Blockquotes can be in a footnote.
-
-        as well as code blocks
-
-    or, naturally, simple paragraphs.
-
+<!-- <style> -->
+<!-- li[id^="fn:"]:focus { -->
+<!--     padding&#45;top: 12%; -->
+<!-- } -->
+<!-- </style> -->
+<!--  -->
+<!-- This is some text[^1]. Other text[^footnote]. -->
+<!--  -->
+<!-- This is some text not written in HTML but in another language! -->
+<!--  -->
+<!-- *[another language]: It's called Markdown -->
+<!--  -->
+<!-- *[HTML]: HyperTextMarkupLanguage -->
+<!-- {:.mega&#45;big} -->
+<!--  -->
+<!-- [^1]: Some *crazy* footnote definition. -->
+<!--  -->
+<!-- [^footnote]: -->
+<!--     > Blockquotes can be in a footnote. -->
+<!--  -->
+<!--         as well as code blocks -->
+<!--  -->
+<!--     or, naturally, simple paragraphs. -->
+<!--  -->
