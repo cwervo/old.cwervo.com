@@ -24,7 +24,7 @@ technologies.  (Except for the baby—but she'll learn soon enough.)
 Not only is that casting a wide net over generations of people, I'm certain
 that in the 1980's the sentence "they **all** have access to networked digital
 technologies" wasn't a true statement. And, yet, three decades into the lives
-of supposed digital natives, and we're designing as if that sentence suddently
+of supposed digital natives, and we're designing as if that sentence suddenly
 rings true. We still use the of rhetoric of digital natives, in part, because
 we find it convenient to understand anyone born after the 1980's as a group,
 particularly a group we can target. Anyone born after 1980 is apparently a part
