@@ -222,10 +222,15 @@ blockquote p {
     @extend %center;
 }
 
+
+// Justify each paragraph.
+p {
+    text-align: justify
+}
+
+
 .about {
-    // Justify each paragraph.
     p {
-        text-align: justify;
         dt { float: left; padding: 4px; }
     }
 
