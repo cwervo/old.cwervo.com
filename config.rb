@@ -84,7 +84,7 @@ configure :build do
     puts "Minified js!"
 
     # Optimize Images with middleman-imageoptim
-    activate :imageoptim
+    # activate :imageoptim
     activate :gzip
     puts "All zipped up!"
 
