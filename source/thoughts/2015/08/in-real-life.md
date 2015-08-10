@@ -1,7 +1,8 @@
 ---
 title: In Real Life
 description: Reflections on an abbreviation.
-date: 2015-08-07 12:15 EDT
+date: 2015-08-31 12:15 EDT
+published: false
 tags:
 ---
 The phrase “In Real Life” (most often abbreviated to IRL) is a strange

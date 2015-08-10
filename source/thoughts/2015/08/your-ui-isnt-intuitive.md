@@ -2,6 +2,7 @@
 title: Your UI Isn't Intuitive
 description: Getting a handle on stratification and user interfaces.
 date: 2015-08-10
+published: false
 tags:
 ---
 
