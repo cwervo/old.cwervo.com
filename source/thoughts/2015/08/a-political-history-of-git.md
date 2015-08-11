@@ -169,5 +169,5 @@ in and out of tech. We can do **so much better**.
 their diversity in the company. But I wrote this post because I think it's
 important to understand how we get here in the first place.
 
-*[FOSS]: Free and Open Source
-Software *[VCS]: Version Control System
+*[FOSS]: Free and Open Source Software
+*[VCS]: Version Control System
