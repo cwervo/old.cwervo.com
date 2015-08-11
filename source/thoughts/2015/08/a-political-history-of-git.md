@@ -164,5 +164,10 @@ be intentional about diversity in tech, and realize that we’ll do better only
 when we acknowledge that rampant other-ing and discrimination is destroying us,
 in and out of tech. We can do **so much better**.
 
-*[FOSS]: Free and Open Source Software
-*[VCS]: Version Control System
+**Note**: Github is a Gold sponsor for the non-profit
+[CODE2040](http://www.code2040.org/mission/), so they are still trying to up
+their diversity in the company. But I wrote this post because I think it's
+important to understand how we get here in the first place.
+
+*[FOSS]: Free and Open Source
+Software *[VCS]: Version Control System
