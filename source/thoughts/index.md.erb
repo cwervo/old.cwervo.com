@@ -33,7 +33,7 @@ description: A collection of words, most of them mine.
 ## <%= number %> Most Recent Posts!
 
     <% blog.articles[0...number].each do |article| %>
-<article class="article-sample" style="background-color: #222; padding: 0.5em 1em; border-radius: 20px">
+<article class="article-sample">
 <h3>
 <a href="<%= article.url %>"><%= article.title %></a>
 <time><%= article.date.strftime('%b %e %Y') %></time>
@@ -43,6 +43,10 @@ description: A collection of words, most of them mine.
         </article>
     <% end %>
 <%end%>
+
+<br>
+
+---
 
 <section class="blog-calendar">
 <h2>Archive:</h2>
