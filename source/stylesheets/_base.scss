@@ -171,10 +171,6 @@ section.content-wrapper {
 
 .blog-date {
     width: 100%;
-    @media($nav-horizontal) {
-        float: right;
-        width: inherit;
-    }
 }
 
 blockquote {
