@@ -71,7 +71,7 @@ descending by years of experience.
 </table>
 
 <div id="resume-call-out">
-I even have experience making a <a id="resume" href="https://drive.google.com/file/d/0B60DEjCjmAoEUTluMm5CMExqbDQ/view">resumé</a>!
+I even have experience making a <a id="resume" href="https://drive.google.com/file/d/0B60DEjCjmAoEQk8zdzQ4aFhWZDQ/view?usp=sharing">resumé</a>!
 </div>
 
 # 4. "Wait, wait, wait, so what's your name?"
@@ -80,3 +80,12 @@ Okay, so the short story is: my first name, last name, and readable
 combinations of both my names, are mostly taken as `.com` websites.  If you
 want to know more about why I chose the domain `cwervo.com`, you can read my
 [blog post about it](/thoughts/2015/08/about-the-url.html).
+
+# 5. Some Friends' Websites!
+
+I know some people who make websites too!
+
+* [Luke Burns](http://lukeburns.com/#/)
+* [Ross Roberts](http://www.grossross.com/)
+* [Tyler Robertson](http://tylerrobertson.me/)
+* [Devon Wells](http://www.dwells.co/)
