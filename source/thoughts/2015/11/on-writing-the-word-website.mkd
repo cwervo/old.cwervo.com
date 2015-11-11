@@ -1,0 +1,66 @@
+---
+title: One Writing The Word "Website"
+description: A few short, messy thoughts on the way we write a single word.
+date: 2015-11-11
+tags: 
+---
+
+While reading [an
+article](http://www.newyorker.com/news/news-desk/race-and-the-free-speech-diversion?mbid=nl_151111_Daily&CNDID=11850649&spMailingID=8241555&spUserID=MjY0MzU4MzU1MjES1&spJobID=801069215&spReportId=ODAxMDY5MjE1S0)
+on a decidedly different subject this morning, it struck me to read:
+
+> The Foundation for Individual Rights in Education, a national campus
+> free-speech organization, posted the video to their **Web site.**
+
+I would encourage anyone to go read the original article — its topic,
+particularly the way it discusses timely, critical issues is vital to the
+safety of many marginalized voices on campuses today, particularly black
+voices.  But, while I have a lot of opinions on trigger warning, safe spaces,
+and threats to the lives of minority students on campuses across the US, that's
+not what I'm commenting on today. I want to focus on the part I bolded above:
+"Web site". There are three ways to write the word website (okay, there are
+actually many, many ways to write "website" but I'll be simplifying for the
+sake of time):
+
+* Web site
+* web site
+* website
+
+This isn't so much a fully formed thought, as it is an excuse to capture an
+idea I had, so forgive the roughness. Nevertheless, let's try some vaguely
+haughty linguistic analysis on a few of the different ways we can write this
+phrase:
+
+# "Web site"
+
+This is the usage that I tend to see on most news sites. It
+strikes me as a more conservative vision of what the Internet is. Simply going
+off the grammar inherent in this writing, this turns the web into a proper
+noun, denoted by the capitalization of "Web." Conceiving of the web as a proper
+noun seems, to imply that the Internet is a single, knowable "thing," rather
+than an amorphous collection of loosely related, maybe even completely
+independent even, networks.
+
+# "web site"
+
+This writing is similar to the first, but loses the capitalization, which means
+we've stopped conceptualizing the web as a single, proper noun. Still, breaking
+the words "web" and "site" invokes a sort of separation between the two
+entities. There's a relation, sure, that's implied by the use of the phrase
+"web site", but keeping them separate words connotes that there is one "thing"
+over there (the "web") and another, related but not exactly constituent, thing
+over here (the "page").
+
+# "website"
+
+In the course of writing this, I realized that this is how I usually write the
+word/ phrase. Maybe, at this point, I'm reading too much into things (as I
+usually do), but writing it a compound word lessens the distinction between the
+web and the page. In my head, and in the conceptualizations of the Internet
+I've heard from some of my friends, we conceive of a website as contributing to,
+not at all separate from, the "web" itself. Writing it this way (writing it
+this way, even, without actually paying attention to it before I wrote this
+thought out) seems to convey that idea.
+
+This isn't anything ground breaking, just a feverish idea written down in a few
+spare minutes, but I'd be happy to hear any thoughts you had reading this!
