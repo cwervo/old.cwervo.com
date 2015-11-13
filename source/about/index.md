@@ -86,6 +86,7 @@ want to know more about why I chose the domain `cwervo.com`, you can read my
 I know some people who make websites too!
 
 * [Luke Burns](http://lukeburns.com/#/)
+* [Jasper Clarkberg](http://jasper.clarkberg.org)
 * [Ross Roberts](http://www.grossross.com/)
 * [Tyler Robertson](http://tylerrobertson.me/)
 * [Devon Wells](http://www.dwells.co/)
