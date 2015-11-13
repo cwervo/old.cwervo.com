@@ -80,8 +80,8 @@ configure :build do
     activate :minify_css
     puts "Minified css!"
 
-    activate :minify_javascript
-    puts "Minified js!"
+    # activate :minify_javascript
+    # puts "Minified js!"
 
     # Optimize Images with middleman-imageoptim
     # activate :imageoptim
