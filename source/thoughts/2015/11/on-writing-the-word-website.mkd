@@ -1,5 +1,5 @@
 ---
-title: One Writing The Word "Website"
+title: On Writing The Word "Website"
 description: A few short, messy thoughts on the way we write a single word.
 date: 2015-11-11
 tags: 
