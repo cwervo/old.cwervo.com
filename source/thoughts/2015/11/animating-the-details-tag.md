@@ -36,7 +36,7 @@ tags:
 </style>
 
 I'm the front end developer and designer for Oberlin's [Environmental
-Dashboard](environmentaldashboard.org) and as such I get to tackles interesting
+Dashboard](environmentaldashboard.org) and as such I get to tackle interesting
 challenges from a technical and a design perspective every week. Today I just
 want to take a quick look at how I solved the task of making the `<details>`
 element animate to open smoothly rather than jarringly snap open and closed.
