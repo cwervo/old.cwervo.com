@@ -3,10 +3,30 @@ title: About
 ---
 # 1. Hi, I'm Andres Cuervo!
 
-Some people call me Andres, some call me by my last name, Cuervo, and you
-can call me whichever of those you like!  If you're wondering about the domain
-name vs. my last name, you can read [my blog post about
+Some people call me Andres, some call me by my last name, Cuervo, and you can
+call me whichever of those you like!  If you're wondering about the domain name
+vs. my last name, you can read [my blog post about
 that](/thoughts/2015/08/about-the-url.html).
+
+I'm a <span id="myAge">π</span> year old
+[Latinx](http://www.latina.com/lifestyle/our-issues/why-we-say-latinx-trans-gender-non-conforming-people-explain),
+[queer](https://en.wikipedia.org/wiki/Queer#Reclamation),
+[non-binary](http://transmediawatch.org/Documents/non_binary.pdf) developer and designer
+(primarily focused on educational technology and [adaptive user interface
+design](https://en.wikipedia.org/wiki/Adaptive_user_interface)).
+
+<script>
+// From http://stackoverflow.com/questions/4060004/calculate-age-in-javascript
+function _calculateAge(birthday) { // birthday is a date
+    var ageDifMs = Date.now() - birthday.getTime();
+    var ageDate = new Date(ageDifMs); // miliseconds from epoch
+    return Math.abs(ageDate.getUTCFullYear() - 1970);
+}
+
+var myBirthday = new Date(1995, 6, 12, 24, 59, 59);
+document.getElementById('myAge').innerHTML = _calculateAge(myBirthday);
+</script>
+
 
 # 2. I Do A Lot Of Things:
 
