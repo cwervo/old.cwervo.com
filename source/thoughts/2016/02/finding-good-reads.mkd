@@ -1,0 +1,108 @@
+---
+title: How I Read More Than Just Thinkpieces
+description: A rundown of what I do to find good pieces to read on the world wide web (okay, including a bunch of thinkpieces).
+date: 2016-02-24
+tags:
+published: false
+---
+
+<style>
+iframe#pocket-button-0 {
+    width: 100px;
+}
+</style>
+
+Before we begin, don't have time to read this just now? How about you save this blog post in your Pocket using this button:
+<a data-pocket-label="pocket" data-pocket-count="horizontal" class="pocket-btn" id="inline-pocket-button" data-lang="en"></a>
+<script type="text/javascript">!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
+? ;)
+
+Recently someone asked me:
+
+> How do you find so many cool things to post to Facebook?
+
+The most immediate answer I have is sort of obvious: **read what other people
+are reading**. Okay, great, thanks -- but how do you go about doing that? Well, I have a
+few things in mind, so here's a break down of how I keep finding interesting
+things to read.
+
+# [Pocket](http://www.getpocket.com/)
+
+First, because I can't think of an elegant segway into this, an analogy. If you
+want to read a lot great books, you find and buy every great book you can --
+even with a significant backlog you can put them on a bookshelf and try and
+whittle down the proverbial "unread stack" over the years (or, in my case, just
+pile them into the corner and look over every once in a while at your sad pile
+of neglected literary worlds). But, with digital content you don't have an
+obvious bookshelf, except maybe your bookmark bar, but that quickly gets
+unruly, and becomes a confusing mixed metaphor: are you bookmarking things for
+quick and consistent access or just things to come back later; if you're using
+a bookmarks bar for both purposes, how do you distinguish those? There a bunch
+of solutions out there besides your bookmarks bar
+([Instapaper](https://www.instapaper.com/) for example), but my personal
+favorite is [Pocket](http://www.getpocket.com/). You can use the Pocket browser
+extension to save interesting content that you come across randomly on your
+computer, or the official Pocket apps to save things you find on your phone,
+and even (as I'll come back to later) integrate it with various other apps to
+save content right from inside other things (_note:_ this, is what I consider
+the "secret", or rather my method, for finding and posting good content.)
+
+# All The Newsletters
+
+I don't even know how many newsletters I'm currently signed up for, but it's
+definitely a lot. I don't actually read most of the newsletters except Jean
+Hannah's [Thread](http://tinyletter.com/jeanhannah) and the morning briefing
+from the New York Times. With the rest, I skim them and then look at the link
+text, opening up the ones with interesting, fun, and/or engaging content. Here
+are the newsletters I can remember I'm signed up to right now:
+
+- [Happening](https://www.kickstarter.com/newsletters/happening)*
+- [Clients From Hell](http://clientsfromhell.leadpages.co/leadbox/14649f773f72a2%3A10df9b858346dc/5653164804014080/?subdomain=clientsfromhell)
+- The Vi and UX [StackExchange Newsletters](http://stackexchange.com/newsletters)
+- [The UI Animation Newsletter](http://valhead.com/newsletter/)
+- [Web Animation Weekly](http://rachelnabors.us1.list-manage.com/subscribe?u=0a8f219cf8284562f91a26ee9&id=d60f6683d2)
+- [The Kids Should See This](http://thekidshouldseethis.com/)
+- [The Medium UX Design Newsletter](https://medium.com/user-experience-design-1)
+
+*The vast majority of the cool, random links I find come from this newsletter,
+it's incredibly diverse and a lot of love and work is put into each one and it
+shows.
+
+After a while, with this and other newsletters, you start to amass a neat
+backlog of interesting things to read.
+
+# "Recommended" Reading
+
+Before we move on to the other things I do that require slight effort to find
+cool content, let's talk about the easiest way to find interesting things to
+read: find something you really enjoyed reading (a human interest story, news
+article, digital art peice, whatever). If it's a content focused website,
+chances are they have a "recommended", "similar", or "related"
+articles/stories/pieces section. Click on one or two of these, just click the
+most interesting one. If that one doesn't seem as interesting as you thought,
+click its recommended reading. You don't have to overdo it -- if you can't find
+something realted and interesting to you after 3 or 4 clicks, the website
+probably just isn't generating good content or might not be the best at
+filtering and grouping content together well. It's a small thing, but I've
+found a cool article or two this way for sure.
+
+# OPS (an acronym I just made up for _Other People's Shares_)
+
+OPS
+
+# Apppppppps
+
+I spend a lot of time on my phone, so in addition to the official Pocket app,
+I've taken the time to figure out what works with what, so here's a run down of
+app options that integrate with Pocket so you can seemlessly save that danke web content:
+
+- CloudMagic
+    - This email app offers integration with Pocket so you can save newsletter links and other fun stuff right into Pocket
+- Twitter
+    - Twitter has the ability to add a "Save to Pocket" button that comes in handy, I find a lot of awesome links whenever I'm just killing time scrolling through Twitter, so this has been a gold mine for my reading content.
+- Email
+    - Pocket gives you the ability to email links to a special email. If you don't have access to the app, the extension, or your phone, this is a great alternative in a pinch!
+- IFTTT
+    - Using "If This Then That", [IFTTT](http://ifttt.com/) for short, you can connect even more, like Todoist or Evernote.
+
+As I finish this post up, I'm realizing 
