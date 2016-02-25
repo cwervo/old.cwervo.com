@@ -3,7 +3,6 @@ title: How I Read More Than Just Thinkpieces
 description: A rundown of what I do to find good pieces to read on the world wide web (okay, including a bunch of thinkpieces).
 date: 2016-02-24
 tags:
-published: false
 ---
 
 <style>
@@ -12,7 +11,7 @@ iframe#pocket-button-0 {
 }
 </style>
 
-Before we begin, don't have time to read this just now? How about you save this blog post in your Pocket using this button:
+Before we begin: _don't have time to read this just now?_ How about you save this blog post in your Pocket using this button:
 <a data-pocket-label="pocket" data-pocket-count="horizontal" class="pocket-btn" id="inline-pocket-button" data-lang="en"></a>
 <script type="text/javascript">!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
 ? ;)
@@ -28,12 +27,12 @@ things to read.
 
 # [Pocket](http://www.getpocket.com/)
 
-First, because I can't think of an elegant segway into this, an analogy. If you
-want to read a lot great books, you find and buy every great book you can --
-even with a significant backlog you can put them on a bookshelf and try and
-whittle down the proverbial "unread stack" over the years (or, in my case, just
-pile them into the corner and look over every once in a while at your sad pile
-of neglected literary worlds). But, with digital content you don't have an
+First, because I can't think of an elegant segway into this, here's an analogy.
+If you want to read a lot of great books, you find and buy every great book you
+can -- even with a significant backlog you can put them on a bookshelf and try
+and whittle down the proverbial "unread stack" over the years (or, in my case,
+just pile them into the corner and look over every once in a while at your sad
+pile of neglected literary worlds). But, with digital content you don't have an
 obvious bookshelf, except maybe your bookmark bar, but that quickly gets
 unruly, and becomes a confusing mixed metaphor: are you bookmarking things for
 quick and consistent access or just things to come back later; if you're using
@@ -51,10 +50,10 @@ the "secret", or rather my method, for finding and posting good content.)
 
 I don't even know how many newsletters I'm currently signed up for, but it's
 definitely a lot. I don't actually read most of the newsletters except Jean
-Hannah's [Thread](http://tinyletter.com/jeanhannah) and the morning briefing
-from the New York Times. With the rest, I skim them and then look at the link
-text, opening up the ones with interesting, fun, and/or engaging content. Here
-are the newsletters I can remember I'm signed up to right now:
+Hannah's beautiful [Thread](http://tinyletter.com/jeanhannah) and the morning
+briefing from the New York Times. With the rest, I skim them and then look at
+the link text, opening up the ones with interesting, fun, and/or engaging
+content. Here are the newsletters I can remember I'm signed up to right now:
 
 - [Happening](https://www.kickstarter.com/newsletters/happening)*
 - [Clients From Hell](http://clientsfromhell.leadpages.co/leadbox/14649f773f72a2%3A10df9b858346dc/5653164804014080/?subdomain=clientsfromhell)
@@ -64,7 +63,7 @@ are the newsletters I can remember I'm signed up to right now:
 - [The Kids Should See This](http://thekidshouldseethis.com/)
 - [The Medium UX Design Newsletter](https://medium.com/user-experience-design-1)
 
-*The vast majority of the cool, random links I find come from this newsletter,
+    \*The vast majority of the cool, random links I find come from this newsletter,
 it's incredibly diverse and a lot of love and work is put into each one and it
 shows.
 
@@ -88,7 +87,15 @@ found a cool article or two this way for sure.
 
 # OPS (an acronym I just made up for _Other People's Shares_)
 
-OPS
+This one's pretty simple too, but involves selling your soul to social media.
+If you spend enough time scrolling through Twitter (I barely use Twitter as a
+public presence platform like I do Facebook: I kill time by using it to find
+interesting articles posted by the incredible people I follow who do use
+Twitter well), your Facebook News Feed, or Reddit (I don't actually use Reddit,
+at all, but it's a good option to keep in mind), you'll end up with a news and
+article aggregate that you get to hand-pick. This method allows you to
+intersect the things your friends and acquaintances like with your personal
+interests, the best of both worlds maybe?
 
 # Apppppppps
 
@@ -97,7 +104,7 @@ I've taken the time to figure out what works with what, so here's a run down of
 app options that integrate with Pocket so you can seemlessly save that danke web content:
 
 - CloudMagic
-    - This email app offers integration with Pocket so you can save newsletter links and other fun stuff right into Pocket
+    - This email app offers integration with Pocket so you can save newsletter links and other fun stuff right to Pocket.
 - Twitter
     - Twitter has the ability to add a "Save to Pocket" button that comes in handy, I find a lot of awesome links whenever I'm just killing time scrolling through Twitter, so this has been a gold mine for my reading content.
 - Email
@@ -105,4 +112,18 @@ app options that integrate with Pocket so you can seemlessly save that danke web
 - IFTTT
     - Using "If This Then That", [IFTTT](http://ifttt.com/) for short, you can connect even more, like Todoist or Evernote.
 
-As I finish this post up, I'm realizing 
+# Okay, I'll Stop Rambling Now ...
+
+As I finish this post up, I'm realizing this was basically just me endorsing
+Pocket as a personal news aggregator. ¯\_(ツ)_/¯ Here's some actual, if still
+vague advice: build a system (see [this Scott Adams blog
+post](http://blog.dilbert.com/post/102964992706/goals-vs-systems) on why
+systems, not goals, are important) to save content, read, and post content
+and figure out your own personal news feeds: you News Feed (Facebook), Twitter,
+the daily newspaper, a friend's random link-filled emails, etc. Whatever it is,
+identify where you get your links from, put them somewhere, and take some time,
+on occiasion, to work through your backlog. I've been doing this for maybe a
+year and a half and I'm actually still figuring out how to make time to go
+through my backlog (for reference, I have 1,720 things in my Pocket ... so,
+there's that). Maybe I'll make another blog post once I get my life together
+and can actually figure out a reading scheduling.
