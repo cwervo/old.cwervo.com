@@ -29,7 +29,7 @@ ASCII art courtesy of: http://www.chris.com/ascii/index.php?art=holiday/easter
 <meta property="og:type" content="article" />
 <meta property="og:description" content="<%= current_page.data.description ? current_page.data.description : "Andres Cuervo's personal website!"%>" />
 <meta property="og:url" content="<%= "http://www.cwervo.com" + current_page.url%>" />
-<meta property="og:image" content="http://www.cwervo.com/images/favicon.png" />
+<meta property="og:image" content="<%= "http://www.cwervo.com" + image_path("favicon.png") %>" />
 
 <%= stylesheet_link_tag "normalize" %>
 <%= stylesheet_link_tag (current_page.data.title ?  'main' : 'index' ) %>
