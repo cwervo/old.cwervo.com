@@ -1,0 +1,54 @@
+.center {
+    text-align: center;
+}
+
+.artist-container {
+    background: blue;
+}
+
+// Make the background expand out the margins, but do that last b/c it's
+// tricky or whatever lol
+
+.artist-container-background {
+    // left: 0;
+    // z-index: -1;
+    width: 300vw;
+    height: 100%;
+}
+
+.dali {
+    background: green;
+    transition: all 2s ease-in;
+}
+
+.dali:hover {
+    animation: 4s shake-hard;
+    animation-fill-mode: forwards;
+}
+
+@keyframes identifier {
+    0% {
+        transform: translateZ(-100px);
+    }
+    23% {
+        transform: translateY(100px) rotate(0.005turn);;
+    }
+
+    100% {
+        transform: translateY(-100px) scale(1.2);
+    }
+}
+
+// From https://github.com/elrumordelaluz/csshake/blob/07862eb367c44505acc804d181ce3030f5d28839/scss/_tools.scss
+@function apply-random($input) {
+    @return if($input != 0, random($input) - $input/2, 0);
+}
+
+@keyframes shake-hard{
+    @for $i from 2 to 98 {
+        @if ($i % 2 == 0) {
+            #{$i}% { transform: translate(#{apply-random(2)}px, #{apply-random(10)}px) rotate(#{apply-random(4)}deg); }
+        }
+    }
+    0%,100%{transform:translate(0, 0) rotate(0)}
+}

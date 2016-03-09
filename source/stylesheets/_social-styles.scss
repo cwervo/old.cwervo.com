@@ -1,3 +1,20 @@
+.social-stuff {
+    @extend %center;
+    $social-vertical-margin: 2em;
+    margin-top: $social-vertical-margin;
+    margin-bottom: $social-vertical-margin;
+}
+
+.social-buttons {
+    line-height: 10px;
+    width: 10em;
+    margin: 1em auto;
+    @media ($nav-horizontal) {
+        display: inline;
+    }
+}
+
+
 .pocket-btn {
     display: inline;
 }

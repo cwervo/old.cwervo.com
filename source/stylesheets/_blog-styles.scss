@@ -1,0 +1,42 @@
+.blog-title {
+    margin-bottom: 0.25em;
+    line-height: 1.2em;
+}
+
+.blog-description {
+    display: inline;
+}
+
+.blog-date {
+    width: 100%;
+}
+
+blockquote {
+    border-left: 4px solid $white;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+}
+blockquote:before {
+    color: #111;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+blockquote p {
+    display: inline;
+}
+
+.blog-calendar {
+    ol {
+        list-style-type: none;
+    }
+    margin-top: 3em;
+    // @extend %center;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.8em;
+}
