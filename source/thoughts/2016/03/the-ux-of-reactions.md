@@ -6,29 +6,29 @@ tags:
 ---
 
 If you've been on Facebook recently, you'll have noticed that below some posts
-there are more icons than the ubiquitous "Like", little faces (or a heart) now
+there are more icons than the ubiquitous "Like". Little faces (or a heart) now
 populate the statistics for how a Facebook user can interact with content -
 these are reactions, the first universal evolution of the single-click
 engagement system on Facebook. I want to take a look at one little design
 decision today to talk about how a small thing can change the meaning behind a
 big system like Facebook's new reactions.
 
-Let's take a look at [this post](https://www.facebook.com/poorlydrawnlines/posts/1232879273408249):
+For a silly example, let's take a look at [this post](https://www.facebook.com/poorlydrawnlines/posts/1232879273408249):
 
 
 <figure>
 <img src="/images/fb-ux/whole_post_1.png" alt="A screenshot of a Facebook post of a Poorly Drawn Lines comic.">
 <figcaption>
-The comic that reads: "Stop laying like that." "I cannot, I am too sexy."
+A comic in a Facebook post that reads: "Stop laying like that." "I cannot, I am too sexy."
 </figcaption>
 </figure>
 
-Notice that in the bottom left hand corner Facebook has chosen to indicate the
+Notice that near the bottom left hand corner Facebook has chosen to indicate the
 top 3 reactions to a post, followed by how many interactions have been made.
 
 The decision to limit the feedback here to 3 was great; including all 6
-reactions and their breakdown would certainly increase cognitive load for
-someone wanting to just get a cursory glance at a post's engagement. My issue
+reactions and their breakdown would certainly have increased cognitive load for
+anyone wanting to just take a cursory glance at a post's engagement. My issue
 comes with something even more minute: the spacing of the reaction icons.
 
 The problem is in how the negative space (the white space between the actual
@@ -46,11 +46,11 @@ border of negative space.
 
 Unfortunately, unless - like me - you're looking at these in close detail, you
 barely even notice that the icons have been cropped at all. That is, they
-continue to look like full icons; more over, the danger become seeing this as a
+continue to look like full icons; more over, the danger here becomes seeing this as a
 list of icons, with the third being attached to that number of engagements
 following the indicators (in our case, we originally see 4K interactions have
 been made), making it look like people are overwhelmingly, even homogeneously
-reacting with a "Love" or "Haha" when this isn't the case.
+reacting with a "Love" reaction when this isn't the case.
 
 Even if this isn't the most present danger in interpretation, it'd be nice to
 guard against and since this has been on my mind I mocked up what a fix would
@@ -63,7 +63,7 @@ in half to make the grouping more obvious:
 </figure>
 
 I cut each icon in half and moved them closer, taking advantage of the fact
-that well designed icons, are highly mutable and yet still able to display
+that well designed symmetrical icons are highly mutable and yet still able to display
 their meaning. Moving everything in like this had the added benefit of allowing
 me to display an extra decimal point: 4.7K instead of just 4K reactions so that
 we can get a more accurate sense of the scope of engagement with minimal effort
@@ -76,4 +76,5 @@ original image?
 </figure>
 
 We haven't lost any information, and my edit seems to make the number attached
-to the module less ambiguous, but maybe it's just me. What do you think?
+to the module less ambiguous, removing the danger of anyone thinking 4.7K
+people "Love"d the post. It's the small things that matter.
