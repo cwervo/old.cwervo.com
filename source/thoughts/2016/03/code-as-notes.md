@@ -2,7 +2,6 @@
 title: Notes With Code
 description: A couple things I've carried over from programming into my note-taking habits.
 date: 2016-03-06
-tags:
 published: false;
 ---
 
