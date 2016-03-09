@@ -17,4 +17,7 @@
 
 .pocket-btn {
     display: inline;
+    iframe[id^='pocket-button'] {
+        max-width: 9%;
+    }
 }
