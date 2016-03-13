@@ -2,7 +2,7 @@
 title: Notes With Code
 description: A couple things I've carried over from programming into my note-taking habits.
 date: 2016-03-06
-published: false;
+published: false
 ---
 
 I use `//` for side comments because it's not a common symbol pair and I instantly know what it means.
