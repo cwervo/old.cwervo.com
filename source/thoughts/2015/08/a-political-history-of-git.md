@@ -73,7 +73,7 @@ culture](http://www.dailydot.com/technology/julie-ann-horvath-quits-github-sexis
 When you have a company that doesn’t treat its employees fairly, how can they
 build systems that allow people to be treated fairly?
 
-# It’s Inaccessible
+# It’s Technically Inaccessible Too
 
 I’m not the [only person to point out Git’s design
 flaws](http://stevebennett.me/2012/02/24/10-things-i-hate-about-git/), hell,
@@ -167,7 +167,7 @@ in and out of tech. We can do **so much better**.
 **Note**: Github is a Gold sponsor for the non-profit
 [CODE2040](http://www.code2040.org/mission/), so they are still trying to up
 their diversity in the company. But I wrote this post because I think it's
-important to understand how we get here in the first place.
+important to understand how we got here in the first place.
 
 *[FOSS]: Free and Open Source Software
 *[VCS]: Version Control System
