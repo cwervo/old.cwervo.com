@@ -11,16 +11,17 @@ surviving in a capitalist society. I read about art, media, and the sociology
 of everything in between. In essence, I read [think pieces and
 more](http://cwervo.com/thoughts/2016/02/finding-good-reads.html). I'm trained
 in both creative writing and computer science, and as this is primarily a
-blogging project, I'm going to actually take the approach of the latter
-discipline: a literature review! I'm stretching the scope of "literature" here
-to include things we read in our every day lives: blogs, news articles, and
-forum questions, as well as obscure, discipline specific works: papers, journal
-articles, other ("actual") literature reviews, and essays.
+blogging project, I'm going to actually take the approach of the former
+discipline, creative writing (or, perhaps more accurately, it's more 'rigorous'
+cousin, English): a literature review! I'm stretching the scope of "literature"
+here to include things we read in our every day lives: blogs, news articles,
+and forum questions, as well as obscure, discipline specific works: papers,
+journal articles, other ("actual") literature reviews, and essays.
 
-What's been on my mind lately are future-of-work and programming culture, but
-if I like the form of the lit. review I may try expanding this to a bunch of
-other purviews: education, diversity,  programming languages, history of
-science and philosophy, and culture.
+What's been on my mind lately are the topics of future-of-work and programming
+culture, but if I like the form of the lit. review I may try expanding this to
+a bunch of other purviews: education, diversity,  programming languages,
+history of science and philosophy, and culture.
 
 I come across so many links every day, I only save a fraction of those I think
 are worth reading, and a smaller fraction _of those_ I actually read. Still, to
