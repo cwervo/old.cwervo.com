@@ -5,14 +5,21 @@ date: 2016-03-21
 tags: LitReview
 ---
 
-Some reading to start off with:
+I guess the prerequisite knowledge for this LitReview is about workplace design
+itself. There are two big patterns in the field: (1) the older cubicle and walled
+office layout and (2) some version of the open office plan, which uses wide-open
+spaces and large shared workspaces. Obviously there's a lot left to know, but
+that's a rough starting point.
+
+Some more 'reading' to start off with:
 
 - Google Workspace Design[^1]
     - Okay, this one's actually a video, but it's interesting and gives you a lot to consider because they've been obligated to think about this topic for a while in a relatively new profession.
 - CircleCI's respect of workplace silence leading to flow.[^2] 
     - I particularly love the following quote from this CircleCI blog post:
     - > I have another myth I’d like to put to rest: “Silence is for the weak”. Too many offices, managers, entrepreneurs and even other developers build offices full of noise and distractions, preventing developers from concentrating and doing our jobs.
-    - As someone who has yet to even enter this industry, it's really interesting and telling that I hear, repeatedly, that the dominant workplace layout is actually annoying, even counterproductive. It's good to know what to look out for, and what I'm getting myself into.
+    - This quote illustrates the repeated feeling we'll see about open office layouts: they were an interesting experiment, but have ultimately turned out to be awful for the one activity they're meant to inspire: work.
+    - As someone who has yet to even enter the tech. industry, it's really interesting and telling that I hear, repeatedly, that the dominant workplace layout is actually annoying, even counterproductive. It's good to know what to look out for, and what I'm getting myself into.
 
 But office design isn't just a programmer, or even tech thing. What about other professions - how do , graphic designers, journalists[^3], and marketers[^4] work, in and outside of tech? It's different per profession but the general consensus is when a profession requires flow[^5], like the programming often does, the open layout plan leads to being "frustrated by distractions that lead to poorer work performance."
 
