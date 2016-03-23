@@ -25,10 +25,12 @@ But office design isn't just a programmer, or even tech thing. What about other 
 
 And what about that oft relegated sector of the tech industry labor: customer experience? It's loud, small open cubicles; how does that affect their work, are there better ways of doing that office layout? I couldn't find any readings on that issue specifically, but it definitely seems that because the job requires conversations, it might be better to allow office space to these professions too[^6], rather than the traditional open layout plan robbing people of their personal space and sense of agency. Whether to preserve flow or allow optimal basic working conditions, it feels like boundary setting in the physical world is one of the best ways to give people a sense of ownership over their space at work.
 
-Finally, how does remote work figure into all of this, because now we're getting outside of configuring the way people work at all. Well, once we get into remote work we're really talking about keeping open communication, boundaries and using your tools[^7] to make it work. It definitely changes how you design an office and a workplace communication chain, but there are tools and plenty of companies to model off of. Whether you're
+Finally, how does remote work figure into all of this? Well, once we get into remote work we're really talking about keeping open communication, boundaries and using your tools[^7] to make it work. It definitely changes how you design an office and a workplace communication chain, but there are tools and plenty of companies to model off of. Whether you're
 building off a collective coop, business, PBC, or some other model, there's probably a way you can make remote work, but you have to be intentional about not letting biases get in the way of organizational contributions.
 
-This first in my LitReview series. As such, this piece was more an exploration of the ways in which our ideas of work environments can affect us. Let me know if you have any more ideas on [Twitter](http://twitter.com/acwervo) or through my [contact form](/contact). And enjoy reading!
+---
+
+This is the first in my LitReview series. As such, this piece was more an exploration of the ways in which our ideas of work environments can affect us. Let me know if you have any more ideas on [Twitter](http://twitter.com/acwervo) or through my [contact form](/contact). And enjoy reading!
 
 [^1]: [Google Workplace Design](https://www.gv.com/lib/workspace-design)
 [^2]: [Circle CI - Silence Is For The Weak](https://circleci.com/blog/silence-is-for-the-weak/)
@@ -37,3 +39,4 @@ This first in my LitReview series. As such, this piece was more an exploration o
 [^5]: [Flow](https://en.wikipedia.org/wiki/Flow_(psychology))
 [^6]: [Open Office Pros & Cons by Trade Gecko](https://www.tradegecko.com/blog/open-office-beneficial-detrimental)
 [^7]: [INN: How We Make Remote Work](http://nerds.inn.org/2014/11/07/how-we-make-remote-work-work/)
+*[PBC]: Public Benefit Corporation
