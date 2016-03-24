@@ -6,7 +6,7 @@ tags:
 ---
 
 A pretty science fictional question for today: who has the responsibility for
-[Tay] (https://twitter.com/TayandYou/) appropriating Black slang ([examples
+[Tay](https://twitter.com/TayandYou/) appropriating Black slang ([examples
 here](https://twitter.com/search?q=fam%2C%20OR%20fleek%2C%20OR%20bae%20from%3Atayandyou&src=typd&lang=en))
 and is it even accurate to call it appropriation. That is, is Tay a formal
 intelligence co-opting language, or is she a mere textual reflection of
