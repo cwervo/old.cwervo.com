@@ -24,7 +24,7 @@
     <article>
         <h1 class="blog-title"><%= current_page.data.title %></h1>
         <h3 class="blog-description"><%= current_page.data.description%></h3>
-        <h3 class="blog-tags"><%= current_page.data.tags %></h3>
+        <h3 class="blog-tags">tags: <%= current_page.data.tags %></h3>
         <div class="blog-date">
             <%= current_article && current_article.date ?
                 current_article.date.strftime('%b %e, %Y') : '' %>
