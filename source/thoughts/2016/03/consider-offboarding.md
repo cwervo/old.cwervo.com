@@ -1,6 +1,6 @@
 ---
-title: Facebook, Death, & OffBoarding
-description: The beginning of a discussion about off boarding and what that looks like when Facebook gets it very, very, wrong in a personal way.
+title: Consider Offboarding: Letting Users Leave In Peace, or, What Facebook Got Wrong
+description: The beginning of a discussion about offboarding and what that looks like when Facebook gets it very, very, wrong in a personal way.
 date: 2016-03-31
 tags: ux
 ---
@@ -68,7 +68,7 @@ Let's just look at the top part of the screen you're presented with:
 In user experience design we talk a lot about onboarding, but I don't think we
 take the concept of offboarding experiences very seriously, especially not for
 social systems like Facebook. I say this because if more consideration had been
-given, I think more care would be apparent in the desing of this off boarding
+given, I think more care would be apparent in the desing of this offboarding
 experience. Addiction, grievance, burn out, exhaustion and disgust are all
 emotions/states users feel in relation to social media, they need to be allowed
 to express and decompress these emotions with or without digital products, in a
@@ -80,7 +80,7 @@ side as well. Understanding why users need a break and learning how to
 facilitate that could improve user retention rather than frustrating users, and
 potentially ending up losing a user who feels manipulated, when all they wanted
 to do was take a break. We need to have conversations around managing an off
-boarding user's data, temporary off boarding protocols, and making sure this
+boarding user's data, temporary offboarding protocols, and making sure this
 experience is as non-combative as possible.
 
 # Doing Better
@@ -89,7 +89,7 @@ In my friend's particular case this manipulative design wasn't just offsetting,
 it actively frustrated the process of trying to grieve peacefully. There are
 certainly lessons to be learned about user experience, user burn out, and a
 bunch of other important data and meta data that could be generated and processed
-if we paid more attention to off boarding as a part of the user lifetime. I plan on writing more about this
+if we paid more attention to offboarding as a part of the user lifetime. I plan on writing more about this
 issue, but this particular piece is more to highlight a list of concerns:
 
 - We can do better. Design for real people, not for users who exist in a vacuum and need to be roped in, notified, and convinced to stay, even if they're unhappy with the experience.
@@ -99,9 +99,9 @@ issue, but this particular piece is more to highlight a list of concerns:
 
 I picked on Facebook here because I've had a friend experience a horrendous
 usability issue, but looking forward I think there's value in
-developing the concept of off boarding users, whether that be for temporary
+developing the concept of offboarding users, whether that be for temporary
 trauma/stress/burn out or because they really do need to just leave. Obviously
 there's no way to understand and quantify the users who simply never log in
-again, but for those users who are willing to go through an off boarding
+again, but for those users who are willing to go through an offboarding
 process, we shouldn't manipulate their emotions, but I want to set
 the bar higher: let's make leaving a product experience as humane as signing up.
