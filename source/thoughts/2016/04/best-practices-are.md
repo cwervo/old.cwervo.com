@@ -1,6 +1,6 @@
 ---
 title: Design Best Practices Are Holding You Back
-description: An exploration of what diversity, accesibilty, and adaptibility mean agains the concept of best practices.
+description: An exploration of what diversity, accesibilty, and adaptibility mean against the concept of best practices.
 date: 2016-04-13
 tags: UX, empathetic design
 ---
@@ -61,7 +61,7 @@ proved to be more _**convenient**_ for some (white, heterosexual, male) people.
 In the same way another person's trash is another person's treasure, one
 person's best practice is someone else's usability nightmare.
 
-*** break ***
+<!--- *** break *** --->
 
 #Okay, So What Make Accessible Design?
 
@@ -141,8 +141,8 @@ axes of difference, testing small interfaces for variable dependency on them,
 or exploring how how we communicate changes and how to make that a more
 memorable, usable, interesting experience.
 
-In the coming year I'll be preparing, reading on, and experimenting with AUI
+In the coming year I'll be preparing, reading about, and experimenting with AUI
 design, specifically in the domain of educational technology, and effectively
 this is a write up of why I think unaided design, if our goal is full
-accessibility, isn't up to the task. If you have thoughts, resources, tips, or
+accessibility, isn't up to the task in quite the same way. If you have thoughts, resources, tips, or
 just want to say hi, feel free to [contact me](mailto:andrescuervor@gmail.com).
