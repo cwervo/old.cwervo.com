@@ -31,6 +31,8 @@ if ($action=="")    /* display the contact form */
 {
 ?>
 
+<! ---
+
 <form id="form" action="" method="POST" enctype="multipart/form-data">
     <input type="hidden" name="action" value="submit">
     Your name?<br>
@@ -38,9 +40,13 @@ if ($action=="")    /* display the contact form */
     Your email?<span class="required">*</span><br>
     <input name="email" type="email" value="" size="100" placeholder="boop@boop.com" required/><br>
     What'd you want to say?<span class="required">*</span><br>
-    <textarea name="message" type="text" rows="7" cols="100" placeholder="Oh, well ..." required/></textarea><br>
+    <textarea name="message" type="text" rows="7" cols="100" placeholder="Oh, well ..." required/></textarea>
+
     <input type="submit" value="Send email"/>
 </form>
+
+-->
+
 <?php
 }
 else                /* send the submitted data */
