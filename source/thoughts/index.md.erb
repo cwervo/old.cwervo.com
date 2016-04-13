@@ -39,7 +39,7 @@ description: A collection of words, most of them mine.
 <time><%= article.date.strftime('%b %e %Y') %></time>
 </h3>
 
-        <%= article.summary(170) %><a href="<%= article.url %>">Read more</a>
+        <%= article.data.description %><a href="<%= article.url %>"> Read more</a>
         </article>
     <% end %>
 <%end%>
