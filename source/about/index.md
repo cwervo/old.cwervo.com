@@ -103,9 +103,11 @@ want to know more about why I chose the domain `cwervo.com`, you can read my
 
 # 5. Some Friends' Websites!
 
-I know some people who make websites too!
+I know some people who have websites too!
 
 * [Luke Burns](http://lukeburns.com/#/)
 * [Jasper Clarkberg](http://jasper.clarkberg.org)
 * [Tyler Robertson](http://tylerrobertson.me/)
+* [Sarah Snider](http://sarah-gwen.com/)
 * [Devon Wells](http://www.dwells.co/)
+

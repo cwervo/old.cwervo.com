@@ -12,7 +12,9 @@
 ###
 
 # Per-page layout changes:
-#
+
+page "projects/oodlize/index.html", :layout => "project-layouts/oodlize"
+
 # With no layout
 # page "/path/to/file.html", :layout => false
 #

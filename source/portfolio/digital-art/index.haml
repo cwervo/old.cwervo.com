@@ -1,0 +1,53 @@
+---
+title: Digital Art Portfolio
+images:
+  - ["AshleyWasRight (taken Jul-28-2016 00-20-42).gif", "AshleyWasRight", "I thought a pinwheel would be fun. So: pinwheel!", "Rotating circles on a flat gray canvas."]
+  - ["GraphSquareDecriment (taken Jul-28-2016 00-31-12).gif", "GraphSquareDecriment", "n/a", "Blinking vectors deleting at pseudo-random intervals."]
+  - ["HalfCircles [Original] (taken Jul-28-2016 00-36-03).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+  - ["LoopingDilation [Flat Gray] (taken Jul-28-2016 00-39-32).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+  - ["LoopingDilation [Mixed Reds - Ellipse] (taken Jul-28-2016 00-42-30).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+  - ["LoopingDilation [Mixed Reds] (taken Jul-28-2016 00-40-37).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+  - ["LoopingDilation [Original] (taken Jul-28-2016 00-36-53).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+  - ["LoopingTriangle (taken Jul-28-2016 01-16-49).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+  - ["RandomQuadClosingCircle [Blue] (taken Jul-28-2016 00-49-28).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+  - ["RandomQuads [Filled Blue] (taken Jul-28-2016 00-50-25).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+  - ["RandomTriangles [Flat Gray Filled] (taken Jul-28-2016 01-12-11).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+  - ["RandomTriangles [Red Yellow Green] (taken Jul-28-2016 01-10-14).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+  - ["ShakingHexagon [Refined] (taken Jul-28-2016 00-30-06).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+  - ["ShakingTriangle (taken Jul-28-2016 00-28-26).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+  - ["ShakingTriangle [A Journey] (taken Jul-28-2016 01-14-11).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+  - ["ShakrkTooth [Original] (taken Jul-28-2016 00-26-45).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+  - ["dilateCircularMotion (taken Jul-28-2016 00-23-54).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+  - ["multipleCircles [Rings] (taken Jul-28-2016 00-44-53).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+---
+
+%style
+:css
+  .portfolio img.img-thumbnail {
+  max-width: 10vw;
+  height: auto;
+  }
+
+
+
+%h1 "A bunch of stuff I made with the Java Processing library"
+
+%p
+  I've since made other things using
+  %a{:href => "https://p5js.org/"} P5.js
+  and the
+  %a{:href => "http://quil.info/"} Quil library
+  , but I think these are still pretty interesting! Hopefully I find the time
+  to make a proper portfolio of this and other animation/design work I've done.
+
+%div#gallery
+  - current_page.data.images.each do |filename, title, description, alt_text|
+    %a{:href => URI.encode("/images/digital-art/#{filename}").gsub("[","%5B").gsub("]","%5D"),
+    :data_caption => "Title: <b>#{title}</b> <i>#{description}</i>"}
+      %img{:class => "img-thumbnail",
+      :src => URI.encode("/images/digital-art/#{filename}").gsub("[","%5B").gsub("]","%5D"),
+      :alt => "#{alt_text}"}
+
+%script
+:javascript
+  -# baguetteBox.run('#gallery');
