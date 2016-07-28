@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+$base-text-height: 1vw;
+
+body {
+    font-size: $base-text-height * 2;
+    font-family: Arial;
+    $body-padding-top: ($base-text-height * 2);
+    padding: $body-padding-top ($body-padding-top * 5);
+    position: relative;
+    // height: 100vh + 30vh;
+    // width: 100vw + 30vw;
+}
+
+form[name="oodle"] {
+    display: inline;
+}
+
+// Background
+#bg {
+    color: lighten(black, 70%);
+    $bg-font-size: $base-text-height * 10;
+    position: absolute;
+    font-size: $bg-font-size;
+
+    $rotation-number: 30;
+    $rotation-string: $rotation-number + deg;
+    transform: rotate($rotation-string);
+    // transform-origin: 20%;
+
+    max-height: 100%;
+    max-width: 100%;
+    word-break: break-all;
+    overflow: hidden;
+
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+input {
+    background-image: none !important;
+}
+
+// Make this only as big as the input, acting like a natural word
+.input-word {
+    border-color: #DDD;
+}
+
+#result {
+    margin-top: ($base-text-height * 5);
+    font-size: $base-text-height * 3.5;
+    text-align: center;
+    font-family: Impact, Arial;
+}

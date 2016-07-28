@@ -1,0 +1,23 @@
+---
+title: Welcome to Middleman
+---
+
+// Background
+%section#bg
+  - 100.times do
+    = "oodle"
+
+// Figure out how you have to structure things so that this site is completely tab
+// arrow keys accessible! :)
+%form{ :name => "oodle" }
+  Replace all the "
+  %input{ :type => "text", :id => "letters-to-replace", :class => "input-word", :placehoder => "e.g. a, e, i, o, u", :value => "a, e, i, o, u"}
+  " letters with "
+  %input{ :type => "text", :id => "replacement", :class => "input-word", :placehoder => "e.g. oodle", :value => "oodle"}
+  " in the word:
+  %input{ :type => "text", :id=> "word", :class => "input-word", :placehoder => "e.g. Doggo", :value => "Doggo"}
+
+The result is:
+#result
+  placeholder text
+
