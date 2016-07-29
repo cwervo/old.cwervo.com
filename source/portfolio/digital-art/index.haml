@@ -1,24 +1,24 @@
 ---
 title: Digital Art Portfolio
 images:
-  - ["AshleyWasRight (taken Jul-28-2016 00-20-42).gif", "AshleyWasRight", "I thought a pinwheel would be fun. So: pinwheel!", "Rotating circles on a flat gray canvas."]
-  - ["GraphSquareDecriment (taken Jul-28-2016 00-31-12).gif", "GraphSquareDecriment", "n/a", "Blinking vectors deleting at pseudo-random intervals."]
-  - ["HalfCircles [Original] (taken Jul-28-2016 00-36-03).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
-  - ["LoopingDilation [Flat Gray] (taken Jul-28-2016 00-39-32).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
-  - ["LoopingDilation [Mixed Reds - Ellipse] (taken Jul-28-2016 00-42-30).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
-  - ["LoopingDilation [Mixed Reds] (taken Jul-28-2016 00-40-37).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
-  - ["LoopingDilation [Original] (taken Jul-28-2016 00-36-53).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
-  - ["LoopingTriangle (taken Jul-28-2016 01-16-49).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
-  - ["RandomQuadClosingCircle [Blue] (taken Jul-28-2016 00-49-28).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
-  - ["RandomQuads [Filled Blue] (taken Jul-28-2016 00-50-25).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
-  - ["RandomTriangles [Flat Gray Filled] (taken Jul-28-2016 01-12-11).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
-  - ["RandomTriangles [Red Yellow Green] (taken Jul-28-2016 01-10-14).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
-  - ["ShakingHexagon [Refined] (taken Jul-28-2016 00-30-06).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
-  - ["ShakingTriangle (taken Jul-28-2016 00-28-26).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
-  - ["ShakingTriangle [A Journey] (taken Jul-28-2016 01-14-11).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
-  - ["ShakrkTooth [Original] (taken Jul-28-2016 00-26-45).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
-  - ["dilateCircularMotion (taken Jul-28-2016 00-23-54).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
-  - ["multipleCircles [Rings] (taken Jul-28-2016 00-44-53).gif", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+  - ["digital-art-gif-1", "AshleyWasRight", "I thought a pinwheel would be fun. So: pinwheel!", "Rotating circles on a flat gray canvas."]
+  - ["digital-art-gif-2", "GraphSquareDecriment", "n/a", "Blinking vectors deleting at pseudo-random intervals."]
+  - ["digital-art-gif-3", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+  - ["digital-art-gif-4", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+  - ["digital-art-gif-5", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+  - ["digital-art-gif-6", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+  - ["digital-art-gif-7", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+  - ["digital-art-gif-8", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+  - ["digital-art-gif-9", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+  - ["digital-art-gif-10", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+  - ["digital-art-gif-11", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+  - ["digital-art-gif-12", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+  - ["digital-art-gif-13", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+  - ["digital-art-gif-14", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+  - ["digital-art-gif-15", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+  - ["digital-art-gif-16", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+  - ["digital-art-gif-17", "HalfCircles [Original]", "n/a", "alt text goes here!"]
+  - ["digital-art-gif-18", "HalfCircles [Original]", "n/a", "alt text goes here!"]
 ---
 
 %style
@@ -27,8 +27,6 @@ images:
   max-width: 10vw;
   height: auto;
   }
-
-
 
 %h1 "A bunch of stuff I made with the Java Processing library"
 
@@ -42,12 +40,48 @@ images:
 
 %div#gallery
   - current_page.data.images.each do |filename, title, description, alt_text|
-    %a{:href => URI.encode("/images/digital-art/#{filename}").gsub("[","%5B").gsub("]","%5D"),
+    - url = "/images/digital-art/" + filename + ".gif"
+    -# - url = filename.gsub("[","%5B").gsub("]","%5D")
+    -# Cool, but this is choking in the build process???? :(
+    -# - url = URI.encode(url) #.gsub("[","%5B").gsub("]","%5D")
+    - puts "*******"
+    - puts url
+    - puts "*******"
+    - url = URI.escape(url, /[^\-_.!~*'()a-zA-Z\d;\/?:@&%=+$,]/)
+    - puts "---"
+    - puts url
+    - puts "---"
+    - url = URI.parse(url)
+    - puts "xxxxxx"
+    - puts url
+    - puts "xxxxxx"
+    %a{:href => url,
     :data_caption => "Title: <b>#{title}</b> <i>#{description}</i>"}
       %img{:class => "img-thumbnail",
-      :src => URI.encode("/images/digital-art/#{filename}").gsub("[","%5B").gsub("]","%5D"),
+      :src => url,
       :alt => "#{alt_text}"}
 
 %script
 :javascript
-  -# baguetteBox.run('#gallery');
+  baguetteBox.run('#gallery');
+
+-#
+  AshleyWasRight (taken Jul-28-2016 00-20-42).gif
+  GraphSquareDecriment (taken Jul-28-2016 00-31-12).gif
+  HalfCircles Original (taken Jul-28-2016 00-36-03).gif
+  LoopingDilation Flat Gray (taken Jul-28-2016 00-39-32).gif
+  LoopingDilation Mixed Reds (taken Jul-28-2016 00-40-37).gif
+  LoopingDilation Mixed Reds - Ellipse (taken Jul-28-2016 00-42-30).gif
+  LoopingDilation Original (taken Jul-28-2016 00-36-53).gif
+  LoopingTriangle (taken Jul-28-2016 01-16-49).gif
+  RandomQuadClosingCircle Blue (taken Jul-28-2016 00-49-28).gif
+  RandomQuads Filled Blue (taken Jul-28-2016 00-50-25).gif
+  RandomTriangles Flat Gray Filled (taken Jul-28-2016 01-12-11).gif
+  RandomTriangles Red Yellow Green (taken Jul-28-2016 01-10-14).gif
+  ShakingHexagon Refined (taken Jul-28-2016 00-30-06).gif
+  ShakingTriangle (taken Jul-28-2016 00-28-26).gif
+  ShakingTriangle A Journey (taken Jul-28-2016 01-14-11).gif
+  ShakrkTooth Original (taken Jul-28-2016 00-26-45).gif
+  digital-art-file-name
+  dilateCircularMotion (taken Jul-28-2016 00-23-54).gif
+  multipleCircles Rings (taken Jul-28-2016 00-44-53).gif
