@@ -38,8 +38,8 @@ page "projects/oodlize/index.html", :layout => "project-layouts/oodlize"
 # activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
+activate :livereload
 configure :development do
-  activate :livereload
 end
 
 # Methods defined in the helpers block are available in templates
@@ -87,8 +87,8 @@ configure :build do
 
     # Optimize Images with middleman-imageoptim
     # activate :imageoptim
-    activate :gzip
-    puts "All zipped up!"
+    # activate :gzip
+    # puts "All zipped up!"
 
     # Enable cache buster
     activate :asset_hash

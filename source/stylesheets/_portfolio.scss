@@ -1,0 +1,47 @@
+// .card {
+//     color: blue;
+// }
+
+.separator {
+    color: #2EAFAC;
+    text-align: center;
+    font-size: 2em;
+    font-style: Monospace;
+}
+
+.portfolio {
+    li.card {
+        border: 2px solid $white;
+        border-radius: 2%;
+        list-style-type: none;
+        margin-bottom: 1%;
+
+        @media ($nav-horizontal) {
+            @include span-columns(6);
+            @include omega(2n)
+        }
+
+        &::before {
+            content: 'apple';
+            display: inline-block;
+        }
+    }
+    //
+    // .card-top {
+    //     border-bottom: 2px solid $white;
+    // }
+    .card-name {
+        margin-top: 0;
+    }
+
+    .card-name, .card-date {
+        // width: 100%;
+        // text-align: center;
+        // margin: 0.5em 0;
+    }
+
+    .card-description {
+        // padding: 10px;
+    }
+}
+

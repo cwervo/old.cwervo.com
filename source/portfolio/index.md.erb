@@ -17,31 +17,58 @@ favorite web safe color names (closely followed by <code style="color:
 <ul>
 
 <% cards = [
+    # Circle
+    ["Circle CI Web Engineering Contractor",
+     "June - August 2016 & January - July 2017",
+     "Working with a team of full stack engineers, in close cooperation with the head of design and my product manager, I:
+     <ul>
+
+         <li>overhauled the company email notification system, moving from
+         simple but cluttered Mustache templates to a full Clojure solution,
+         making these templates easier to edit</li>
+         <li>created the first prototype of various user interface experiments</li>
+         <li>wrote a <a
+         href=\"https://developer.mozilla.org/en-US/docs/Web/API/notification\">web
+         notifications</a> library and used it to implement notifications when
+     builds on the website ran. Adopted by 3,000 + users on day of launch.</li>
+     </ul>
+     I currently have a contract to work for CircleCI for the first half of 2017,
+     and will be working on more projects to bridge design and web technologies.",
+     "/images/portfolio/book-coop-screenshot.png",
+     "alt-text, right?",
+     "http://circleci.com"],
+     # -- ART ! ---
+     ["Generative Art",
+      "August 2012 - Present",
+      "",
+      "/images/portfolio/digital-art.png",
+      "some-alt-text",
+      "/portfolio/digital-art"],
     # CSRC
     ["Oberlin Community Service Resource Center - End Of The Year Celebration",
      "Spring 2015",
      "Designed communications materials for the event, including an email template, postcard invitation, and pamphlet",
-     "/images/csrc-end-of-year-celebration-2015.png",
+     "/images/portfolio/csrc-end-of-year-celebration-2015.png",
      "Image of postcard and pamphlet created for Oberlin Community Services' End Of The Year Celebration, 2015."],
     # Oberlin Book Co-op
     ["Oberlin Book Co-op",
      "Winter, 2015",
      "Designer + Front End + Back End",
-     "/images/book-coop-screenshot.png",
+     "/images/portfolio/book-coop-screenshot.png",
      "Image of the website bookcoop.org which I redesigned in the Winter of 2015.",
      "http://bookcoop.org"],
      # Environmental Dashboard
      ["Oberlin Environmental Dashboard",
       "Spring 2015 - Ongoing",
       "Front End Developer and Designer",
-      "/images/environmental-dashboard-screenshot.png",
+      "/images/portfolio/environmental-dashboard-screenshot.png",
       "Image of the website oberlindashboard.org, which I began working on in the Spring of 2015.",
       "http://www.oberlindashboard.org"],
       # OCS
       ["Oberlin Community Services - Youth Resources",
        "Fall 2013",
        "Compiled resources, organized them, added them to the site using customized Wordpress plugin",
-       "/images/ocs-screenshot.png",
+       "/images/portfolio/ocs-screenshot.png",
        "Image of the Oberlin Community Service website.",
        "http://www.oberlincommunityservices.org/resources/youth/"]
 ] %>
@@ -52,8 +79,9 @@ favorite web safe color names (closely followed by <code style="color:
     <h2 class="card-date">Date: <%= card[1]%></h2>
     </div>
     <hr/>
-    <div class="card-description">Role: <%= card[2]%></div>
+    <div class="card-description"><%# Role:  %><%= card[2]%></div>
     <%= card[5] ? '<a href="' + card[5] + '">Link to the website.</a>' : ''%>
     <img src="<%= card[3]%>" alt="<%= card[4] %>"/>
+    <div class="separator">* * * * * * * *</div>
     </div>
 <% end %>

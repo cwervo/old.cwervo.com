@@ -296,40 +296,6 @@ p {
     }
 }
 
-// Case Studies Cards
-
-.case-studies {
-    li.card {
-        border: 2px solid $white;
-        border-radius: 2%;
-        list-style-type: none;
-        margin-bottom: 1%;
-        // margin: 0.1em;
-        // height: 10%;
-        // width: 10%;
-        // @include span-columns(9);
-        // @include omega(1n);
-        @media ($nav-horizontal) {
-            @include span-columns(6);
-            @include omega(2n)
-        }
-    }
-
-    .card-top {
-        border-bottom: 2px solid $white;
-    }
-
-    .card-name, .card-date {
-        width: 100%;
-        text-align: center;
-        margin: 0.5em 0;
-    }
-
-    .card-description {
-        padding: 10px;
-    }
-}
-
 // Thoughts CSS
 .thoughts {
     //
