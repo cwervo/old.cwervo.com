@@ -1,48 +1,58 @@
 ---
 title: Portfolio
 ---
-
-
-<!-- Need to make card&#45;picture,&#45;title,&#45;description,&#45;hover, and auto reveal those -->
-<!-- at the single&#45;column size! -->
-
-<!--
-Note: While you're seeing this unfinished site, here's a fun fact - the
-background color for the elements below is called `wheat`. It's one of my
-favorite web safe color names (closely followed by <code style="color:
-        papayawhip;">papayawhip</code>).
--->
-
-<!-- TODO: Use ERB to keep an hash (name&#45;of&#45;project : array holding image, date, and short description!) -->
-<ul>
+<section>
 
 <% cards = [
+    # VR.CWERVO.COM
+    ["vr.cwervo.com",
+     "July 2016 - Present",
+     "Using <a href=\"https://developers.google.com/vr/concepts/vrview-web\">VR
+     View</a> and <a href=\"https://threejs.org/\">Three.js</a> I've been uploading
+     some VR experiments to the web for others to play around with. I'm currently
+     learning more about shaders and 3D modeling to be able to create my own scenes.
+     I also hope to encorporate painting and traditional animation techniques into
+     mobile VR, as I think it could be an accessible and interesting way to introduce
+     people to the medium.",
+     "/images/portfolio/portfolio-vr-collage.png",
+     "A collection",
+     "http://vr.cwervo.com"],
     # Circle
     ["Circle CI Web Engineering Contractor",
      "June - August 2016 & January - July 2017",
-     "Working with a team of full stack engineers, in close cooperation with the head of design and my product manager, I:
+     "Working with a team of full stack engineers, in close cooperation with the head of design and my product manager,
+     over the course of the sumer of 2016 I:
      <ul>
 
          <li>overhauled the company email notification system, moving from
          simple but cluttered Mustache templates to a full Clojure solution,
-         making these templates easier to edit</li>
-         <li>created the first prototype of various user interface experiments</li>
+         making these templates more consistent, easier to understand, and
+         edit in the future</li>
+
+         <li>created the first prototype of various user interface
+         improvements; for example the image below shows both the side bar UI
+         I implemented as well as a new modal interface for adding teammates
+         to a project (identifying details have been blurred out).</li>
+
          <li>wrote a <a
          href=\"https://developer.mozilla.org/en-US/docs/Web/API/notification\">web
          notifications</a> library and used it to implement notifications when
-     builds on the website ran. Adopted by 3,000 + users on day of launch.</li>
+     builds on the platform are completed. Adopted by 3,000 + users on day of launch.</li>
+
      </ul>
      I currently have a contract to work for CircleCI for the first half of 2017,
-     and will be working on more projects to bridge design and web technologies.",
-     "/images/portfolio/book-coop-screenshot.png",
-     "alt-text, right?",
+     and hope to continue working on projects that bridge design and web technologies.",
+     "/images/portfolio/circleci.png",
+     "A screenshot demonstrating a UI improvement I made to Circle CI's interface during my first summer there.",
      "http://circleci.com"],
      # -- ART ! ---
-     ["Generative Art",
-      "August 2012 - Present",
-      "",
-      "/images/portfolio/digital-art.png",
-      "some-alt-text",
+     ["Generative Art", # title
+      "2012 - Present", # date
+      "Below is a screenshot of some of my generative art. Since I discovered <a href=\"https://processing.org/\">Processing</a>
+      in 2012 I have been interested in making art that utilizes randomness and repitition to create interesting compositions.
+      See the link below to see the pieces in motion.", # description
+      "/images/portfolio/digital-art.png", # image path
+      "", # alt-text
       "/portfolio/digital-art"],
     # CSRC
     ["Oberlin Community Service Resource Center - End Of The Year Celebration",
@@ -53,14 +63,17 @@ favorite web safe color names (closely followed by <code style="color:
     # Oberlin Book Co-op
     ["Oberlin Book Co-op",
      "Winter, 2015",
-     "Designer + Front End + Back End",
+     "Designer + Front End + Back End. Redesigned the website using simple PHP templating and
+     SCSS, along with vector illustrations (example below).",
      "/images/portfolio/book-coop-screenshot.png",
      "Image of the website bookcoop.org which I redesigned in the Winter of 2015.",
      "http://bookcoop.org"],
      # Environmental Dashboard
      ["Oberlin Environmental Dashboard",
       "Spring 2015 - Ongoing",
-      "Front End Developer and Designer",
+      "Front End Developer and Designer. Designed various UI including a search
+      function, the main menu bar, and various widgets to teach people about
+      sustainability issues.",
       "/images/portfolio/environmental-dashboard-screenshot.png",
       "Image of the website oberlindashboard.org, which I began working on in the Spring of 2015.",
       "http://www.oberlindashboard.org"],
@@ -82,6 +95,7 @@ favorite web safe color names (closely followed by <code style="color:
     <div class="card-description"><%# Role:  %><%= card[2]%></div>
     <%= card[5] ? '<a href="' + card[5] + '">Link to the website.</a>' : ''%>
     <img src="<%= card[3]%>" alt="<%= card[4] %>"/>
+    <!--<span class="debugging-text">ALT TEXT: <%= card[4] %></span>-->
     <div class="separator">* * * * * * * *</div>
     </div>
 <% end %>
