@@ -22,7 +22,7 @@ nav {
 // Don't show the nav-list by default
 .nav-list-container {
     display: none;
-    transition: all 3s ease-in;
+    transition: all 1s ease-in;
 
     // Do show it when in the horizontal mode because you have to!
     @media ($nav-horizontal) {

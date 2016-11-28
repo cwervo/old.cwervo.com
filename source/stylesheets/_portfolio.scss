@@ -6,7 +6,11 @@
     color: #2EAFAC;
     text-align: center;
     font-size: 2em;
-    font-style: Monospace;
+    width: 100%;
+    display: inline-block;
+    height: 1em;
+    $line-border-style: 5px ridge #2EAFAC;
+    border-top: $line-border-style;
 }
 
 .portfolio {

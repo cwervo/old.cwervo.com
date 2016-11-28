@@ -3,9 +3,44 @@ title: Portfolio
 ---
 <section>
 
+<p>
+The following is a list of some projects I've worked on spanning non-profit
+volunteer work, personal and class projects, and two internships.
+</p>
+
+
 <% cards = [
+    # Visualizations
+    ["Data Visualizations",
+     "February 2016 - Present",
+
+    "My interest in data visualization began when I took an <a
+    href=\"http://oberlinexco.org/\">ExCo</a> titled \"Configuring The
+    Figure\". As a result of that inital experience, I have continued pursuing
+    visualization by doing my creative writing capstone project as <a
+    href=\"http://precipice.cwervo.com/\">an exercise in data visualization
+    storytelling [in progress]</a> and am taking on a private reading in the Oberlin College
+    Art department designing data visualizations for both Oberlin College and
+    political topics that seem prescient in 2016. Some examples of my
+    visualizations include:
+
+    <ul>
+        <li><a href=\"http://cwervo.com/projects/millennials_visualization/\">A collection of visualizations
+        using Pew Center data about millenials</a></li>
+        <li><a href=\"http://cwervo.com/files/standing-rock-out-of-state-police.pdf\">A visualization
+        charting the early stages of out-of-state police support to the site of the Standing
+        Rock protests</a></li>
+    </ul>
+    In addition to continued private work, I will be teaching the class I took
+    last year in Spring 2017,",
+
+    "/images/portfolio/visualization-collage.png",
+
+    "A diagonal cutaway image of two visualization I have created, one of millenial data collected by the Pew Center,
+    the other a partial visualization of Standing Rock out-of-state police forces"],
+
     # VR.CWERVO.COM
-    ["vr.cwervo.com",
+    ["<a href='http://vr.cwervo.com'>vr.cwervo.com</a>",
      "July 2016 - Present",
      "Using <a href=\"https://developers.google.com/vr/concepts/vrview-web\">VR
      View</a> and <a href=\"https://threejs.org/\">Three.js</a> I've been uploading
@@ -15,29 +50,30 @@ title: Portfolio
      mobile VR, as I think it could be an accessible and interesting way to introduce
      people to the medium.",
      "/images/portfolio/portfolio-vr-collage.png",
-     "A collection",
+     "A collage of various VR photos I've taken over the past few months.",
      "http://vr.cwervo.com"],
     # Circle
     ["Circle CI Web Engineering Contractor",
      "June - August 2016 & January - July 2017",
-     "Working with a team of full stack engineers, in close cooperation with the head of design and my product manager,
-     over the course of the sumer of 2016 I:
+     "Working with a team of full stack engineers, in close cooperation with the head of design and a product manager,
+     over the course of the summer of 2016 I:
      <ul>
 
-         <li>overhauled the company email notification system, moving from
+         <li>overhauled CircleCI's email notification system, moving from
          simple but cluttered Mustache templates to a full Clojure solution,
          making these templates more consistent, easier to understand, and
          edit in the future</li>
 
-         <li>created the first prototype of various user interface
-         improvements; for example the image below shows both the side bar UI
-         I implemented as well as a new modal interface for adding teammates
-         to a project (identifying details have been blurred out).</li>
-
          <li>wrote a <a
          href=\"https://developer.mozilla.org/en-US/docs/Web/API/notification\">web
          notifications</a> library and used it to implement notifications when
-     builds on the platform are completed. Adopted by 3,000 + users on day of launch.</li>
+        builds on the platform are completed. Adopted by 3,000 + users on day of launch.
+        </li>
+
+         <li>created the first prototype of various user interface
+         improvements; for example the image below shows both the side bar UI
+         I implemented as well as a new modal interface for adding teammates
+         to a project (identifying details have been blurred out)</li>
 
      </ul>
      I currently have a contract to work for CircleCI for the first half of 2017,
@@ -45,6 +81,39 @@ title: Portfolio
      "/images/portfolio/circleci.png",
      "A screenshot demonstrating a UI improvement I made to Circle CI's interface during my first summer there.",
      "http://circleci.com"],
+
+     # CodeNow
+     ["CodeNow", # title
+      "June 2015 - August 2015", # date
+
+      "As an intern for the technology education non-profit CodeNow I worked
+      on two distinct initiatives:
+
+      <ul>
+
+          <li>I revamped the curriculum website for CodeNow's first workshop, which
+          teaches Ruby to high school students, by changing the underlying
+          static site generator to a more sustainable option, redesigning the
+          site to fit CodeNow's branding, and adding password protection</li>
+          <li>working with Yvonne De La Peña I helped develop a new curriculum
+          for graduates of CodeNow's first workshop in which students work
+          through <a
+          href='https://swifteducation.github.io/teaching_app_development_with_swift/'>
+          playground lessons</a> to learn the Swift programming language.
+          Additionally, I built on my previous work with the Ruby website by
+          adding documentation for the website, a website for
+          Swift curriculum workshop tutors, and taught various members of the office how
+          to use Github to update the website on their own, writing a custom
+          deploy script to automate most of the process. Additionally,
+          I spent some time assisting the in-person workshops, covering for tutors,
+          and giving students in both Ruby and Swift workshops individual attention
+          whenever they required it</li>
+
+      </ul>", # description
+      "/images/portfolio/codenow-screenshot.png", # image path
+      "Image of the homepage for Code Now's curriculum website I first built the summer of 2015.", # alt-text
+      "http://codenoworg.github.io/"],
+
      # -- ART ! ---
      ["Generative Art", # title
       "2012 - Present", # date
@@ -52,41 +121,53 @@ title: Portfolio
       in 2012 I have been interested in making art that utilizes randomness and repitition to create interesting compositions.
       See the link below to see the pieces in motion.", # description
       "/images/portfolio/digital-art.png", # image path
-      "", # alt-text
+      "A photo of my generative animations.", # alt-text
       "/portfolio/digital-art"],
-    # CSRC
-    ["Oberlin Community Service Resource Center - End Of The Year Celebration",
-     "Spring 2015",
-     "Designed communications materials for the event, including an email template, postcard invitation, and pamphlet",
-     "/images/portfolio/csrc-end-of-year-celebration-2015.png",
-     "Image of postcard and pamphlet created for Oberlin Community Services' End Of The Year Celebration, 2015."],
-    # Oberlin Book Co-op
-    ["Oberlin Book Co-op",
-     "Winter, 2015",
-     "Designer + Front End + Back End. Redesigned the website using simple PHP templating and
-     SCSS, along with vector illustrations (example below).",
-     "/images/portfolio/book-coop-screenshot.png",
-     "Image of the website bookcoop.org which I redesigned in the Winter of 2015.",
-     "http://bookcoop.org"],
      # Environmental Dashboard
      ["Oberlin Environmental Dashboard",
-      "Spring 2015 - Ongoing",
+      "February 2015 - August 2016",
       "Front End Developer and Designer. Designed various UI including a search
       function, the main menu bar, and various widgets to teach people about
       sustainability issues.",
       "/images/portfolio/environmental-dashboard-screenshot.png",
       "Image of the website oberlindashboard.org, which I began working on in the Spring of 2015.",
       "http://www.oberlindashboard.org"],
+    # CSRC
+    ["Oberlin Community Service Resource Center - End Of The Year Celebration",
+     "May 2015",
+     "Designed communications materials for the event, including an email template, postcard invitation, and pamphlet",
+     "/images/portfolio/csrc-end-of-year-celebration-2015.png",
+     "Image of postcard and pamphlet created for Oberlin Community Services' End Of The Year Celebration, 2015."],
+    # Oberlin Book Co-op
+    ["Oberlin Book Co-op",
+     "August 2014 - Present",
+     "Designer + Front End + Back End. Redesigned the website using simple PHP templating and
+     SCSS, along with vector illustrations (example below).",
+     "/images/portfolio/book-coop-screenshot.png",
+     "Image of the website bookcoop.org which I redesigned in the Winter of 2015.",
+     "http://bookcoop.org"],
       # OCS
       ["Oberlin Community Services - Youth Resources",
-       "Fall 2013",
+       "August - December 2013",
        "Compiled resources, organized them, added them to the site using customized Wordpress plugin",
        "/images/portfolio/ocs-screenshot.png",
        "Image of the Oberlin Community Service website.",
        "http://www.oberlincommunityservices.org/resources/youth/"]
 ] %>
+
+<h1>Table of contents:</h1>
+<ul>
 <% cards.each do |card| %>
-    <div class="card">
+    <% text = card[0] =~ /<\/a>/i ? card[0].scan(/<a href=.*>([^<>]*)<\/a>/imu).flatten[0] : card[0] %>
+    <% id_text = text.gsub(/\s/, '_')%>
+    <li><a href="#<%= id_text%>"><%= text%></a> (<%= card[1] %>)</li>
+<% end %>
+</ul>
+
+<% cards.each do |card| %>
+    <% text = card[0] =~ /<\/a>/i ? card[0].scan(/<a href=.*>([^<>]*)<\/a>/imu).flatten[0] : card[0] %>
+    <% id_text = text.gsub(/\s/, '_')%>
+    <div class="card" id="<%= id_text %>">
     <div class="card-top">
     <h1 class="card-name">Project: <%= card[0]%></h1>
     <h2 class="card-date">Date: <%= card[1]%></h2>
@@ -95,7 +176,6 @@ title: Portfolio
     <div class="card-description"><%# Role:  %><%= card[2]%></div>
     <%= card[5] ? '<a href="' + card[5] + '">Link to the website.</a>' : ''%>
     <img src="<%= card[3]%>" alt="<%= card[4] %>"/>
-    <!--<span class="debugging-text">ALT TEXT: <%= card[4] %></span>-->
-    <div class="separator">* * * * * * * *</div>
+    <div class="separator"></div>
     </div>
 <% end %>
