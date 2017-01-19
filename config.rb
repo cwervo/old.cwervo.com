@@ -102,14 +102,8 @@ end
 
 # Deploy configuration
 activate :deploy do |deploy|
-    # Rsync Deploy Method
-    deploy.method = :rsync
-    deploy.host = "cwervo.com"
-    deploy.path = "/home/tinycarr/public_html"
-    deploy.user = "tinycarr"
-
     # Git Deploy Method
-    # deploy.method = :git
+    deploy.method = :git
     # # Optional Settings
     # deploy.remote   = 'origin' # remote name or git url, default: origin
     # deploy.branch   = 'deploy' # default: gh-pages
