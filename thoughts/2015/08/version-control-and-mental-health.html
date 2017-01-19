@@ -1,0 +1,268 @@
+<!doctype html>
+
+<html prefix="og: http://ogp.me/ns#">
+<meta charset="utf-8">
+
+<!-- Looking at the 'ol source code, huh? Well lucky you! Here's an easer egg:
+    cwervo.com/easter-egg
+          __
+      .-*)) `*-.
+     /*  ((*   *'.
+    |   *))  *   *\
+    | *  ((*   *  /
+     \  *))  *  .'
+ jgs  '-.((*_.-'
+
+ASCII art courtesy of: http://www.chris.com/ascii/index.php?art=holiday/easter
+-->
+
+<!-- Always force latest IE rendering engine or request Chrome Frame -->
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta name="viewport" content="width=device-width" ></meta>
+<link rel="shortcut icon" href="/images/favicon-1846b7e2.png">
+
+<!-- Use title if it's in the page YAML frontmatter -->
+<title>cwervo.com - Version Control & Mental Health</title>
+
+<!-- Facebook Open Graph Protocol Stuff -->
+<meta property="og:title" content="Version Control & Mental Health" />
+<meta property="og:site_name" content="Cwervo.com - Thoughts Blog">
+<meta property="og:type" content="article" />
+<meta property="og:description" content="A personal understanding of how version control makes me better." />
+<meta property="og:url" content="http://www.cwervo.com/thoughts/2015/08/version-control-and-mental-health.html" />
+<meta property="og:image" content="http://www.cwervo.com/images/big-logo-33b7b0ea.png" />
+
+<link href="/stylesheets/normalize-7efa2312.css" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/main-97945ec7.css" rel="stylesheet" type="text/css" />
+
+
+
+<script src="/javascripts/all-5af674d6.js" type="text/javascript"></script>
+
+<script src="/javascripts/twitter-share-button-8a10f132.js" type="text/javascript"></script>
+
+
+<body class="thoughts thoughts_2015 thoughts_2015_08 thoughts_2015_08_version-control-and-mental-health">
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=876359652399612";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+
+<nav>
+    <ul>
+        <div class="close-container">
+            <li class="close"><a href="##close" id="close" class="close">x</a></li>
+        </div>
+        <div class="nav-list-container">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About me</a></li>
+            <li><a href="/portfolio/">Portfolio</a></li>
+            <li><a href="/case-studies/">Case studies</a></li>
+            <!-- <li><a href="/projects/">'no projects, just case studies???'</a></li> -->
+            <li><a href="/thoughts/">Thoughts</a></li>
+            <li><a href="/contact/">Contact</a></li>
+        </div>
+    </ul>
+</nav>
+
+<section class="content-wrapper">
+    <section class="content">
+            <!--
+    <aside>
+        Andres Cuervo
+
+            <h4>5 Most Recent Posts!</h4>
+            <hr>
+
+                <article class="article-sample" style="background-color: #222; padding: 0.2em 0.4em; border-radius: 10px; witdth: 100%">
+                    <h5>
+                        <a style="float: right" href="/thoughts/2017/01/notes-on-fb-360.html">Notes on FB 360</a>
+                        <br>
+                        <time style="float: right" >Jan  9 2017</time>
+                    </h5>
+
+                </article>
+                <article class="article-sample" style="background-color: #222; padding: 0.2em 0.4em; border-radius: 10px; witdth: 100%">
+                    <h5>
+                        <a style="float: right" href="/thoughts/2016/04/google-doc-navigation-tips.html">Back To The Top</a>
+                        <br>
+                        <time style="float: right" >Apr 15 2016</time>
+                    </h5>
+
+                </article>
+                <article class="article-sample" style="background-color: #222; padding: 0.2em 0.4em; border-radius: 10px; witdth: 100%">
+                    <h5>
+                        <a style="float: right" href="/thoughts/2016/04/best-practices-are.html">Design Best Practices Are Holding You Back</a>
+                        <br>
+                        <time style="float: right" >Apr 13 2016</time>
+                    </h5>
+
+                </article>
+                <article class="article-sample" style="background-color: #222; padding: 0.2em 0.4em; border-radius: 10px; witdth: 100%">
+                    <h5>
+                        <a style="float: right" href="/thoughts/2016/04/making-data-meaningful.html">Making Data Meaningful</a>
+                        <br>
+                        <time style="float: right" >Apr  6 2016</time>
+                    </h5>
+
+                </article>
+                <article class="article-sample" style="background-color: #222; padding: 0.2em 0.4em; border-radius: 10px; witdth: 100%">
+                    <h5>
+                        <a style="float: right" href="/thoughts/2016/04/antidisciplinary-project-based-learning-and-you.html">Breaking Project Based Learning And The Concept Of Academic Disciplines</a>
+                        <br>
+                        <time style="float: right" >Apr  5 2016</time>
+                    </h5>
+
+                </article>
+    </aside> -->
+    <article>
+        <h1 class="blog-title">Version Control & Mental Health</h1>
+        <h3 class="blog-description">A personal understanding of how version control makes me better.</h3>
+        <h3 class="blog-tags">tags: mental health, programming, imposter syndrome</h3>
+        <div class="blog-date">
+            Aug 19, 2015
+        </div>
+        <hr>
+        <p>Last Friday, August 14<sup>th</sup> was my last day interning at
+<a href="codenow.org">CodeNow</a>. In two months I rebuilt and redesigned their website
+from the ground up. I helped them teach Ruby to 100 students, and, just last
+weekend, taught 6 students the basics of working with Swift. I also helped set
+up those workshops, and helped reshoot some material for a series of videos on
+the basics of programming. In short, I did <strong>a lot</strong>, and every experience
+helped me learn and grow. But, behind that, I had to overcome a couple personal
+struggles, and as I reflect on leaving CodeNow I want to focus on one small
+piece of overcoming those challenges: I want to focus on how I ended up having
+a great summer rebuilding and redesigning a website, even though I have had
+anxiety towards programming. If you find comfort in hearing other people
+overcome their challenges (I know I do), this might help you too.</p>
+
+<p>I have chronic anxiety, and — even as I gain more experience with technology in
+and out of the classroom — that’s coupled with imposter syndrome. As I have
+come to understand it, imposter syndrome is the fear of not being prepared or
+allowed to be somewhere (whether that’s by title, for instance being in a high
+ranking job, or in a physical place, like a university), despite previous
+accomplishments and qualifications. It is marked by feeling you’re not good
+enough — not being smart enough to pass a class, not having enough experience
+to complete a job, not having enough tenacity to learn something new — even
+though you have clearly succeeded in the past. I’m sure we’ve all had these
+fears on occassion, maybe you even have them periodically (like when year-end
+reviews or school finals roll around). The difference with me, with imposter
+syndrome, is that depending on the context, I can have these thoughts recur
+dozens of times on end and no amount of thinking about my past accomplishments
+and successes can quell them.</p>
+
+<p>The particularly troublesome thing is that these two issues feed into each
+other: I’ve spent days or even weeks cyclically worrying about whether, <em>in my
+moment of worrying</em>, rather than studying or working, if I was already doomed to
+failure; worrying about a spiral where I’m predestined to give up, drop out and
+need to reconcile a constantly ineffective life. I’ve become better at dealing
+with this for a myriad of personal reasons, but when I’m working with code
+(something I do a lot of as a computer science undergrad and part-time web
+designer), I credit version control with saving me from some of the mental burden.
+Imposter syndrome comes back now and again (it’s much harder to fight your
+self image), but the anxiety of messing up has been relieved as I’ve learned
+that version control doesn’t just offer you a robust, historically accurate
+codebase - it allows you to experiment, to just <em>try</em>.</p>
+
+<p>As you may already know I have some <a href="http://cwervo.com/thoughts/2015/08/a-political-history-of-git.html">political issues with Git and
+Github</a>,
+but as the ubiquitous version control system at the moment, these tools are
+also the reason I’m able to write this post in the first place. To be clear,
+for a time just using Git gave me anxiety too: will I accidentally delete a
+file with this pull? How do I go back in history? What the hell is a SHA-1
+hash? After getting over the serious interface issues, continuously working
+with it made me see why version control is so useful. I may have a lot of
+critiques of Git, but cheap (meaning it doesn’t add bloat to a project, or take
+a long time) branching (the practice of saving your code in multiple states
+independently of each other, like multiple backups) is a modern miracle, and it
+allows you to play around and <strong>not break things</strong>.  Of course, you can always
+delete the branch or the Github repo, or utterly screw up a Git command, but
+barring those possibilities (which aren’t easy to do both permanently <strong>and</strong>
+accidentally in a Git or Github project), there’s so much freedom in version
+control allowing you to mess around and almost always have a plan B, and C, and
+D, and so on.</p>
+
+<p>If branches aren’t your thing (no worries, I’m still getting used to using
+branches in all my projects too, especially incorporating them into my old
+projects), the simple act of committing code (meaning, backing it up using
+version control), and being able to revert back to a commit (restore any of
+your code backups), is relieving in and of itself.  Rather than trying to write
+it all out again here, I’d rather show you the note I left for the intern who
+is taking over my project at CodeNow:</p>
+
+<blockquote>
+  <p><strong>Last Thing:</strong><br />
+This isn’t so much technical as it is practical: remember, you can’t screw up.
+Git and Github have a complete history of the project, and you can always
+revert to the last functioning version. If you do break something and you
+didn’t figure that out while testing it locally … you can go back in history
+to the last working version, commit, deploy from there, and try again. The
+website isn’t going to explode if you break something, because Git lets you
+turn back time.</p>
+</blockquote>
+
+<p>I realized after writing the above note, that while I hope it’s helpful to the
+next intern, I really wrote it for myself, to remind myself that in one small
+way, I’m allowed to break things until I can do something perfectly, and that’s
+the best type of learning environment you can ask for.</p>
+
+<p>Programming is hard, having serious anxiety about it and feeling like you’re
+not good enough to even be writing code makes it <em>even</em> harder. Version control
+made it better. Now, if only we can design more intuitive version
+control systems, that’d be great.</p>
+
+        <br/>
+        <span style="float: right;">
+            — Andres Cuervo
+        </span>
+    </article>
+</section>
+<section class="social-stuff">
+    <h1 style="display: inline;">Want to share this post?</h1>
+    <br/>
+<div class="social-buttons">
+    <Facebook >
+    <div class="fb-like"
+        data-href="http://cwervo.com/thoughts/2015/08/version-control-and-mental-health.html"
+        data-layout="button_count" data-action="like" data-show-faces="true"
+        data-share="true">
+    </div>
+    <a class="twitter-share-button"
+        href="https://twitter.com/intent/tweet?url=http://cwervo.com/thoughts/2015/08/version-control-and-mental-health.html&text=I just read:&via=acwervo">Tweet this!</a>
+    <a href="https://news.ycombinator.com/submit" class="hn-button" data-title="Version Control & Mental Health" data-url="http://cwervo.com/thoughts/2015/08/version-control-and-mental-health.html" data-count="horizontal">Vote on Hacker News</a>
+    <script type="text/javascript">var HN=[];HN.factory=function(e){return function(){HN.push([e].concat(Array.prototype.slice.call(arguments,0)))};},HN.on=HN.factory("on"),HN.once=HN.factory("once"),HN.off=HN.factory("off"),HN.emit=HN.factory("emit"),HN.load=function(){var e="hn-button.js";if(document.getElementById(e))return;var t=document.createElement("script");t.id=e,t.src="//hn-button.herokuapp.com/hn-button.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)},HN.load();</script>
+    <a data-pocket-label="pocket" data-pocket-count="horizontal" class="pocket-btn" data-lang="en"></a>
+    <script type="text/javascript">!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
+</div>
+
+</section>
+<!-- <section id="comments"> -->
+<!--      -->
+<!-- </section> -->
+
+        
+                                  </section>
+
+                                  <!-- Click Tracking -->
+                                  <a title="Real Time Web Analytics" href="https://clicky.com/100865482"></a>
+                                  <script type="text/javascript">
+                                      var clicky_site_ids = clicky_site_ids || [];
+                                      clicky_site_ids.push(100865482);
+                                      (function() {
+                                          var s = document.createElement('script');
+                                          s.type = 'text/javascript';
+                                          s.async = true;
+                                          s.src = '//static.getclicky.com/js';
+                                          ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+                                      })();
+                                  </script>
+                                  <noscript></noscript>
+
+
+                              </body>
+

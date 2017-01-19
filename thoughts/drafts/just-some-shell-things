@@ -1,0 +1,15 @@
+~~~ shell
+__newblog() {
+    vim ~/
+    webProjects/
+    cwervo.com/
+    source/
+    thoughts/
+    `date "+%Y/%m/%d/${1}"`
+}
+
+newblog='__newblog(){}
+
+# Or, as a one-liner:
+newblog='__newblog() {vim ~/webProjects/cwervo.com/source/thoughts/`date "+%Y/%m/%d/${1}"`};__newblog'
+~~~

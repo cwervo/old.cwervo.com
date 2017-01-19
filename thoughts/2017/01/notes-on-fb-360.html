@@ -1,0 +1,301 @@
+<!doctype html>
+
+<html prefix="og: http://ogp.me/ns#">
+<meta charset="utf-8">
+
+<!-- Looking at the 'ol source code, huh? Well lucky you! Here's an easer egg:
+    cwervo.com/easter-egg
+          __
+      .-*)) `*-.
+     /*  ((*   *'.
+    |   *))  *   *\
+    | *  ((*   *  /
+     \  *))  *  .'
+ jgs  '-.((*_.-'
+
+ASCII art courtesy of: http://www.chris.com/ascii/index.php?art=holiday/easter
+-->
+
+<!-- Always force latest IE rendering engine or request Chrome Frame -->
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta name="viewport" content="width=device-width" ></meta>
+<link rel="shortcut icon" href="/images/favicon-1846b7e2.png">
+
+<!-- Use title if it's in the page YAML frontmatter -->
+<title>cwervo.com - Notes on FB 360</title>
+
+<!-- Facebook Open Graph Protocol Stuff -->
+<meta property="og:title" content="Notes on FB 360" />
+<meta property="og:site_name" content="Cwervo.com - Thoughts Blog">
+<meta property="og:type" content="article" />
+<meta property="og:description" content="A collection of things I learned making 360 videos and photos work in Facebook." />
+<meta property="og:url" content="http://www.cwervo.com/thoughts/2017/01/notes-on-fb-360.html" />
+<meta property="og:image" content="http://www.cwervo.com/images/big-logo-33b7b0ea.png" />
+
+<link href="/stylesheets/normalize-7efa2312.css" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/main-97945ec7.css" rel="stylesheet" type="text/css" />
+
+
+
+<script src="/javascripts/all-5af674d6.js" type="text/javascript"></script>
+
+<script src="/javascripts/twitter-share-button-8a10f132.js" type="text/javascript"></script>
+
+
+<body class="thoughts thoughts_2017 thoughts_2017_01 thoughts_2017_01_notes-on-fb-360">
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=876359652399612";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+
+<nav>
+    <ul>
+        <div class="close-container">
+            <li class="close"><a href="##close" id="close" class="close">x</a></li>
+        </div>
+        <div class="nav-list-container">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About me</a></li>
+            <li><a href="/portfolio/">Portfolio</a></li>
+            <li><a href="/case-studies/">Case studies</a></li>
+            <!-- <li><a href="/projects/">'no projects, just case studies???'</a></li> -->
+            <li><a href="/thoughts/">Thoughts</a></li>
+            <li><a href="/contact/">Contact</a></li>
+        </div>
+    </ul>
+</nav>
+
+<section class="content-wrapper">
+    <section class="content">
+            <!--
+    <aside>
+        Andres Cuervo
+
+            <h4>5 Most Recent Posts!</h4>
+            <hr>
+
+                <article class="article-sample" style="background-color: #222; padding: 0.2em 0.4em; border-radius: 10px; witdth: 100%">
+                    <h5>
+                        <a style="float: right" href="/thoughts/2017/01/notes-on-fb-360.html">Notes on FB 360</a>
+                        <br>
+                        <time style="float: right" >Jan  9 2017</time>
+                    </h5>
+
+                </article>
+                <article class="article-sample" style="background-color: #222; padding: 0.2em 0.4em; border-radius: 10px; witdth: 100%">
+                    <h5>
+                        <a style="float: right" href="/thoughts/2016/04/google-doc-navigation-tips.html">Back To The Top</a>
+                        <br>
+                        <time style="float: right" >Apr 15 2016</time>
+                    </h5>
+
+                </article>
+                <article class="article-sample" style="background-color: #222; padding: 0.2em 0.4em; border-radius: 10px; witdth: 100%">
+                    <h5>
+                        <a style="float: right" href="/thoughts/2016/04/best-practices-are.html">Design Best Practices Are Holding You Back</a>
+                        <br>
+                        <time style="float: right" >Apr 13 2016</time>
+                    </h5>
+
+                </article>
+                <article class="article-sample" style="background-color: #222; padding: 0.2em 0.4em; border-radius: 10px; witdth: 100%">
+                    <h5>
+                        <a style="float: right" href="/thoughts/2016/04/making-data-meaningful.html">Making Data Meaningful</a>
+                        <br>
+                        <time style="float: right" >Apr  6 2016</time>
+                    </h5>
+
+                </article>
+                <article class="article-sample" style="background-color: #222; padding: 0.2em 0.4em; border-radius: 10px; witdth: 100%">
+                    <h5>
+                        <a style="float: right" href="/thoughts/2016/04/antidisciplinary-project-based-learning-and-you.html">Breaking Project Based Learning And The Concept Of Academic Disciplines</a>
+                        <br>
+                        <time style="float: right" >Apr  5 2016</time>
+                    </h5>
+
+                </article>
+    </aside> -->
+    <article>
+        <h1 class="blog-title">Notes on FB 360</h1>
+        <h3 class="blog-description">A collection of things I learned making 360 videos and photos work in Facebook.</h3>
+        <h3 class="blog-tags">tags: vr</h3>
+        <div class="blog-date">
+            Jan  9, 2017
+        </div>
+        <hr>
+        <p>Note: Everything that follows in this post is specific to getting Facebook to recognize
+media in a 360 degree format, although this may help you with other platforms,
+most likely YouTube.</p>
+
+<h1 id="photos">Photos</h1>
+
+<p>Through searching the Facebook forums, I was initially pointed to <a href="https://www.dropbox.com/sh/70mwlh8k0y4rg0g/AACVNV7hvRZtjEKj4DoJMhCba?dl=0">this Dropbox
+folder</a>
+filled with templates that come embedded with appropriate 360 metadata, with the
+caveat that you only use the “Save As” option in Photoshop, instead of “Export”
+or “Save for Web”, because “Save As” is guaranteed to preserve the metadata.
+And these templates were really useful for some initial messing around with
+Facebook 360s.</p>
+
+<p>But after a while I found that restricting, wanting to make images without
+relying on a template every time, and so I decided to search again, until I
+happened upon <a href="https://facebook360.fb.com/editing-360-photos-injecting-metadata/">this wonderful page outlining how to edit and inject metadata
+360 photos</a>
+right from <a href="https://facebook360.fb.com/">facebook360.fb.com</a>. It’s here that
+you can find the original reference to the Dropbox template folder, but more
+interestingly you see how a program called <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool</a>
+can help you inject metadata into a photo:</p>
+
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>exiftool -ProjectionType="equirectangular" photo.jpg
+</pre></td></tr></tbody></table>
+</div>
+
+<p>I started using this so much that I made a little alias for it:</p>
+
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>alias vrexif='exiftool -ProjectionType="equirectangular"'
+</pre></td></tr></tbody></table>
+</div>
+
+<p>In fact, you can specify a bunch of different metadata options to control
+Facebook’s presentation and processing of 360 panoramas:</p>
+
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14</pre></td><td class="code"><pre># 120º h_fov, 86º v_fov
+exiftool -FullPanoWidthPixels=18000 -FullPanoHeightPixels=9000 -CroppedAreaLeftPixels=6000 -CroppedAreaTopPixels=2350 -CroppedAreaImageWidthPixels=6000 -CroppedAreaImageHeightPixels=4300 -ProjectionType=cylindrical file.jpg
+# 150º h_fov, 86º v_fov
+exiftool -FullPanoWidthPixels=14400 -FullPanoHeightPixels=7200 -CroppedAreaLeftPixels=4200 -CroppedAreaTopPixels=1880 -CroppedAreaImageWidthPixels=6000 -CroppedAreaImageHeightPixels=3440 -ProjectionType=cylindrical file.jpg
+# 180º h_fov, 86º v_fov
+exiftool -FullPanoWidthPixels=12000 -FullPanoHeightPixels=6000 -CroppedAreaLeftPixels=3000 -CroppedAreaTopPixels=1567 -CroppedAreaImageWidthPixels=6000 -CroppedAreaImageHeightPixels=2867 -ProjectionType=cylindrical file.jpg
+# 240º h_fov, 86º v_fov
+exiftool -FullPanoWidthPixels=9000 -FullPanoHeightPixels=4500 -CroppedAreaLeftPixels=1500 -CroppedAreaTopPixels=1175 -CroppedAreaImageWidthPixels=6000 -CroppedAreaImageHeightPixels=2150 -ProjectionType=cylindrical file.jpg
+# 300º h_fov, 86º v_fov
+exiftool -FullPanoWidthPixels=7200 -FullPanoHeightPixels=3600 -CroppedAreaLeftPixels=600 -CroppedAreaTopPixels=940 -CroppedAreaImageWidthPixels=6000 -CroppedAreaImageHeightPixels=1720 -ProjectionType=cylindrical file.jpg
+# 360º h_fov, 86º v_fov
+exiftool -FullPanoWidthPixels=6000 -FullPanoHeightPixels=3000 -CroppedAreaLeftPixels=0 -CroppedAreaTopPixels=783 -CroppedAreaImageWidthPixels=6000 -CroppedAreaImageHeightPixels=1433 -ProjectionType=cylindrical file.jpg
+# 360º h_fov, 65º v_fov
+exiftool -FullPanoWidthPixels=6000 -FullPanoHeightPixels=3000 -CroppedAreaLeftPixels=0 -CroppedAreaTopPixels=958 -CroppedAreaImageWidthPixels=6000 -CroppedAreaImageHeightPixels=1083 -ProjectionType=cylindrical file.jpg
+</pre></td></tr></tbody></table>
+</div>
+
+<p>I haven’t played around with these options extensively, but I imagine a shell
+function for all these options would be convenient.</p>
+
+<h2 id="video">Video</h2>
+
+<p>I wish it were possible to upload GIFs, to save resources and export time, but
+in lieu of doing that, I’ve started uploading 360 degree videos to satisfy my
+passion for playing around with motion. At first it was hard to figure out how
+to do that for Facebook because there’s not a handy guide for injecting
+metadata in videos like there is for photos, so I tried to take a more general
+approach and look for general 360 metadata authoring tools.</p>
+
+<p>Using that approach I found <a href="https://support.google.com/youtube/answer/6178631?hl=en">this excellent YouTube
+Help</a> article that led
+me to the <a href="https://github.com/google/spatial-media">Spatial Media</a> repo. You can
+certainly compile the application from source, or run it through Python 2.7
+commands but I found it much easier to go to <a href="https://github.com/google/spatial-media/releases/tag/v2.0">the releases section</a>
+and download the standalone OS X app, <code>Spatial Media Metadata Injector.app</code>.
+Just hit the “My video is spherical (360)” option in the app and upload and
+inject the metadata to your video, and it works like a charm! I’m unsure if
+Facebook supports stereoscopic video (I presume so, because of Oculus, but it
+might just attempt automatic conversion into that format) or binaural (e.g.
+“spatial”) audio, but those metadata options you can set in this app too!</p>
+
+<p>Here’re a couple of my Facebook posts that were made in the process of me
+figuring all of this out:</p>
+
+<ul>
+  <li><a href="https://www.facebook.com/cwervo/videos/1505929912755203/?l=2973292618226338993">A little snek video</a>
+    <ul>
+      <li><a href="http://andrescuervo.github.io/vrview/?video=images/2017/january8and9/blurry_snek.mp4">Google VR View version</a></li>
+    </ul>
+  </li>
+  <li><a href="https://www.facebook.com/photo.php?fbid=1507291499285711&amp;set=pb.100000146252251.-2207520000.1484035616.&amp;type=3&amp;size=1024%2C1024">Some ridiculous stairs</a>
+    <ul>
+      <li><a href="http://andrescuervo.github.io/vrview/?image=images/2017/january8and9/staircase-illusion.jpg">Google VR View version</a></li>
+    </ul>
+  </li>
+  <li><a href="https://www.facebook.com/photo.php?fbid=1506003762747818&amp;set=pb.100000146252251.-2207520000.1484035616.&amp;type=3&amp;size=1024%2C1024">A flooded room</a>
+    <ul>
+      <li><a href="http://andrescuervo.github.io/vrview/?image=images/2017/january8and9/flooded-room.jpg">Google VR View version</a></li>
+    </ul>
+  </li>
+  <li><a href="https://www.facebook.com/cwervo/videos/1505302079484653/?l=4361733656676865104">A funny dog</a>
+    <ul>
+      <li><a href="http://andrescuervo.github.io/vrview/?video=images/2017/january8and9/doggonado.mp4">Google VR View version</a> (Notice how VR View doesn’t disrupt the video even though it’s short, but FB does)</li>
+    </ul>
+  </li>
+  <li><a href="https://www.facebook.com/photo.php?fbid=1505004889514372&amp;set=pb.100000146252251.-2207520000.1484035616.&amp;type=3&amp;theater">The “Great Room” at the Internet Archive headquarters</a>
+    <ul>
+      <li><a href="http://andrescuervo.github.io/vrview/?image=images/2017/january8and9/internet-archive-center-of-great-room.jpg">Google VR View version</a></li>
+    </ul>
+  </li>
+</ul>
+
+        <br/>
+        <span style="float: right;">
+            — Andres Cuervo
+        </span>
+    </article>
+</section>
+<section class="social-stuff">
+    <h1 style="display: inline;">Want to share this post?</h1>
+    <br/>
+<div class="social-buttons">
+    <Facebook >
+    <div class="fb-like"
+        data-href="http://cwervo.com/thoughts/2017/01/notes-on-fb-360.html"
+        data-layout="button_count" data-action="like" data-show-faces="true"
+        data-share="true">
+    </div>
+    <a class="twitter-share-button"
+        href="https://twitter.com/intent/tweet?url=http://cwervo.com/thoughts/2017/01/notes-on-fb-360.html&text=I just read:&via=acwervo">Tweet this!</a>
+    <a href="https://news.ycombinator.com/submit" class="hn-button" data-title="Notes on FB 360" data-url="http://cwervo.com/thoughts/2017/01/notes-on-fb-360.html" data-count="horizontal">Vote on Hacker News</a>
+    <script type="text/javascript">var HN=[];HN.factory=function(e){return function(){HN.push([e].concat(Array.prototype.slice.call(arguments,0)))};},HN.on=HN.factory("on"),HN.once=HN.factory("once"),HN.off=HN.factory("off"),HN.emit=HN.factory("emit"),HN.load=function(){var e="hn-button.js";if(document.getElementById(e))return;var t=document.createElement("script");t.id=e,t.src="//hn-button.herokuapp.com/hn-button.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)},HN.load();</script>
+    <a data-pocket-label="pocket" data-pocket-count="horizontal" class="pocket-btn" data-lang="en"></a>
+    <script type="text/javascript">!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
+</div>
+
+</section>
+<!-- <section id="comments"> -->
+<!--      -->
+<!-- </section> -->
+
+        
+                                  </section>
+
+                                  <!-- Click Tracking -->
+                                  <a title="Real Time Web Analytics" href="https://clicky.com/100865482"></a>
+                                  <script type="text/javascript">
+                                      var clicky_site_ids = clicky_site_ids || [];
+                                      clicky_site_ids.push(100865482);
+                                      (function() {
+                                          var s = document.createElement('script');
+                                          s.type = 'text/javascript';
+                                          s.async = true;
+                                          s.src = '//static.getclicky.com/js';
+                                          ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+                                      })();
+                                  </script>
+                                  <noscript></noscript>
+
+
+                              </body>
+

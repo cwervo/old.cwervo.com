@@ -1,0 +1,354 @@
+<!doctype html>
+
+<html prefix="og: http://ogp.me/ns#">
+<meta charset="utf-8">
+
+<!-- Looking at the 'ol source code, huh? Well lucky you! Here's an easer egg:
+    cwervo.com/easter-egg
+          __
+      .-*)) `*-.
+     /*  ((*   *'.
+    |   *))  *   *\
+    | *  ((*   *  /
+     \  *))  *  .'
+ jgs  '-.((*_.-'
+
+ASCII art courtesy of: http://www.chris.com/ascii/index.php?art=holiday/easter
+-->
+
+<!-- Always force latest IE rendering engine or request Chrome Frame -->
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta name="viewport" content="width=device-width" ></meta>
+<link rel="shortcut icon" href="/images/favicon-1846b7e2.png">
+
+<!-- Use title if it's in the page YAML frontmatter -->
+<title>cwervo.com - A Political History of Git</title>
+
+<!-- Facebook Open Graph Protocol Stuff -->
+<meta property="og:title" content="A Political History of Git" />
+<meta property="og:site_name" content="Cwervo.com - Thoughts Blog">
+<meta property="og:type" content="article" />
+<meta property="og:description" content="Looking at some of the worst parts of Git, and what it means for accessibility and diversity." />
+<meta property="og:url" content="http://www.cwervo.com/thoughts/2015/08/a-political-history-of-git.html" />
+<meta property="og:image" content="http://www.cwervo.com/images/big-logo-33b7b0ea.png" />
+
+<link href="/stylesheets/normalize-7efa2312.css" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/main-97945ec7.css" rel="stylesheet" type="text/css" />
+
+
+
+<script src="/javascripts/all-5af674d6.js" type="text/javascript"></script>
+
+<script src="/javascripts/twitter-share-button-8a10f132.js" type="text/javascript"></script>
+
+
+<body class="thoughts thoughts_2015 thoughts_2015_08 thoughts_2015_08_a-political-history-of-git">
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=876359652399612";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+
+<nav>
+    <ul>
+        <div class="close-container">
+            <li class="close"><a href="##close" id="close" class="close">x</a></li>
+        </div>
+        <div class="nav-list-container">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About me</a></li>
+            <li><a href="/portfolio/">Portfolio</a></li>
+            <li><a href="/case-studies/">Case studies</a></li>
+            <!-- <li><a href="/projects/">'no projects, just case studies???'</a></li> -->
+            <li><a href="/thoughts/">Thoughts</a></li>
+            <li><a href="/contact/">Contact</a></li>
+        </div>
+    </ul>
+</nav>
+
+<section class="content-wrapper">
+    <section class="content">
+            <!--
+    <aside>
+        Andres Cuervo
+
+            <h4>5 Most Recent Posts!</h4>
+            <hr>
+
+                <article class="article-sample" style="background-color: #222; padding: 0.2em 0.4em; border-radius: 10px; witdth: 100%">
+                    <h5>
+                        <a style="float: right" href="/thoughts/2017/01/notes-on-fb-360.html">Notes on FB 360</a>
+                        <br>
+                        <time style="float: right" >Jan  9 2017</time>
+                    </h5>
+
+                </article>
+                <article class="article-sample" style="background-color: #222; padding: 0.2em 0.4em; border-radius: 10px; witdth: 100%">
+                    <h5>
+                        <a style="float: right" href="/thoughts/2016/04/google-doc-navigation-tips.html">Back To The Top</a>
+                        <br>
+                        <time style="float: right" >Apr 15 2016</time>
+                    </h5>
+
+                </article>
+                <article class="article-sample" style="background-color: #222; padding: 0.2em 0.4em; border-radius: 10px; witdth: 100%">
+                    <h5>
+                        <a style="float: right" href="/thoughts/2016/04/best-practices-are.html">Design Best Practices Are Holding You Back</a>
+                        <br>
+                        <time style="float: right" >Apr 13 2016</time>
+                    </h5>
+
+                </article>
+                <article class="article-sample" style="background-color: #222; padding: 0.2em 0.4em; border-radius: 10px; witdth: 100%">
+                    <h5>
+                        <a style="float: right" href="/thoughts/2016/04/making-data-meaningful.html">Making Data Meaningful</a>
+                        <br>
+                        <time style="float: right" >Apr  6 2016</time>
+                    </h5>
+
+                </article>
+                <article class="article-sample" style="background-color: #222; padding: 0.2em 0.4em; border-radius: 10px; witdth: 100%">
+                    <h5>
+                        <a style="float: right" href="/thoughts/2016/04/antidisciplinary-project-based-learning-and-you.html">Breaking Project Based Learning And The Concept Of Academic Disciplines</a>
+                        <br>
+                        <time style="float: right" >Apr  5 2016</time>
+                    </h5>
+
+                </article>
+    </aside> -->
+    <article>
+        <h1 class="blog-title">A Political History of Git</h1>
+        <h3 class="blog-description">Looking at some of the worst parts of Git, and what it means for accessibility and diversity.</h3>
+        <h3 class="blog-tags">tags: accessibility, diversity, tech</h3>
+        <div class="blog-date">
+            Aug 10, 2015
+        </div>
+        <hr>
+        <p>Git is a program that helps people keep track of their code. It’s wildly
+popular in tech communities, and almost impossible to be a programmer or
+computer scientist without having heard of it. But there are some problems with
+where it came from, problems that show us the perils of designing software with
+a closed perspective. We need to talk about Git.</p>
+
+<h1 id="its-harsh">It’s Harsh</h1>
+
+<h2 id="lets-start-at-the-beginning">Let’s Start At The Beginning</h2>
+
+<p>Git was created by Linus Torvalds, with his infamously <a href="http://www.wired.com/2012/11/linus-torvalds-isoc/">unapologetic and toxic
+attitude</a> toward people
+involved in his sphere of influence. A couple years ago someone tried to <a href="http://www.theregister.co.uk/2013/07/16/torvalds_potty_mouty_fight_back/">call
+him out on his
+attitude</a>
+and he defaulted to a distinctly whiny argument about what “professionalism”
+means. I sort of sympathize, actually.</p>
+
+<p>Concepts like professionalism are disguised attempts to maintain power
+structures that don’t come from merit or authority, but from privilege and
+rigid hierarchy. Usually those calling for professionalism are looking to
+suffocate oppressed groups with a standard on what it means to act “correctly”.
+But I don’t think Linus and I have the same complaint about professionalism.
+When he uses that argument to defend his verbal abuse, he’s not defending
+himself against a rigid power structure - he’s the man at the very top of a
+very important project abusing his position. As the man who created Linux on a
+whim, does he really think he needs to resort to curse words in multiple
+languages and threats to get his point across, to assert his authority over a
+global project that bears his name? More poignantly, it shows how little he
+thinks of contributing developers. When he thinks that using violent language
+is necessary to express how much Linux matters to him and to the world, he’s
+discrediting the passion and expertise those contributing have, assuming that
+they can’t <strong>possibly</strong> understand how important a mistake in the Linux project
+is. When someone like that creates Git, you’re going to have a bad time.</p>
+
+<h2 id="years-after-git-we-got-the-hub">3 Years After Git, We Got The Hub</h2>
+
+<p>The words in a commit message, or more likely, a pull request or issue, which
+anyone can post on a Git project, can be dangerous and ugly, and, right now,
+it’s the responsibility of the project maintainer to slog through that
+potentially offensive content. That’s especially hard when the project
+maintainer is the one being harassed by these requests. While this is an issue
+with Github, which was founded in 2008 around Git, we’ll count it as a crucial
+part of the Git ecosystem (because the reality is, Git doesn’t exist without
+Github for a lot of developers). As Gizmodo pointed out a couple years ago, you
+don’t have to look very hard to find <a href="http://gizmodo.com/5980842/there-is-blatant-racist-and-sexist-language-in-github-code">incredibly offensive and demeaning
+messages in software</a>
+hosted on Github.</p>
+
+<p>This represents a completely inadequate handling by Github, a company whose
+tagline is a call to “Build better software, <strong>together</strong>.” How are we supposed
+to build better software together when nothing’s being done to make the
+experience of social coding safe? When some of us aren’t considered worthy of
+being included when you say “together”? As a parallel, let’s take Twitter.
+While, notably, Twitter <a href="https://nakedsecurity.sophos.com/2015/02/06/twitter-ceo-admits-we-suck-at-dealing-with-abuse-and-trolls/">doesn’t deal with its abuse
+well</a>,
+it’s important that they are acknowledging and trying to make up for their
+mistakes. When you have a platform that is facilitating the communication of
+millions, it’s up to you to ensure that there are systems in place that don’t
+leave your users out in the open to abuse. I’ll give minor credit where credit
+is due: <a href="https://github.com/blog/862-block-the-bullies">Github recognized this in 2011 and has
+tried</a>, but it looks like
+they’re not doing enough. It especially looks that way when their first female
+developer quit last year, citing <a href="http://www.dailydot.com/technology/julie-ann-horvath-quits-github-sexism-harassment/">a sexist
+culture</a>.
+When you have a company that doesn’t treat its employees fairly, how can they
+build systems that allow people to be treated fairly?</p>
+
+<h1 id="its-technically-inaccessible-too">It’s Technically Inaccessible Too</h1>
+
+<p>I’m not the <a href="http://stevebennett.me/2012/02/24/10-things-i-hate-about-git/">only person to point out Git’s design
+flaws</a>, hell,
+even <a href="https://git-scm.com/book/en/v1/Git-Internals-Plumbing-and-Porcelain">the Git book
+admits</a>:</p>
+
+<blockquote>
+  <p>because Git was initially a toolkit for a <abbr title="Version Control System">VCS</abbr> rather than a full user-friendly
+<abbr title="Version Control System">VCS</abbr>, it has a bunch of verbs that do low-level work and were designed to be
+chained together UNIX style or called from scripts.</p>
+</blockquote>
+
+<p>It’s a shame when you have to point out that certain parts of your software are
+user hostile. As a new user to Git, if you don’t know about the <code>man</code> pages, if
+you’re not familiar with a computer scientist’s vision of trees, or if you’re
+new to programming in general, the whole thing is simply an impenetrable wall
+as far as reading the documentation. I know programmers twice my age who,
+because Git was introduced late in their career, or they’re just now switching
+to programming, they’re finding <strong>Git</strong> to be one of the most difficult things
+to <strong>use</strong>. And it’s important that I wrote the word ‘use.’ It’s not that people
+aren’t “smart enough” to use Git, it’s that Git is difficult to use.</p>
+
+<p>Git has a command line oriented syntax, and like the above quote mentioned, it
+looks more like arcane UNIX commands than a full fledged program. The concept
+of a complete history of you project is useful, but completely inaccessible
+because the language about the revision HEAD doesn’t make it obvious, at all,
+that Git is that powerful. Let’s take one command, just one: <code>git checkout</code>.</p>
+
+<p>“What is the command <code>git checkout</code> good for?” you may be asking yourself.
+Well, you can:</p>
+
+<div class="highlight ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8</pre></td><td class="code"><pre><span class="c1"># Use it switch the state of your git branch</span>
+<span class="n">git</span> <span class="n">checkout</span> <span class="n">someBranch</span>
+
+<span class="c1"># Use it to make a new branch</span>
+<span class="n">git</span> <span class="n">checkout</span> <span class="o">-</span><span class="n">b</span> <span class="n">someBranch</span>
+
+<span class="c1"># Use it go back in your tracked history</span>
+<span class="n">git</span> <span class="n">checkout</span> <span class="mi">123456</span>
+</pre></td></tr></tbody></table>
+</div>
+
+<p>I understand why Git ended up having so much functionality crammed into every
+one of its commands, because for those who have been using it for years daily,
+it really is convenient. But for those who haven’t or can’t dedicate years of
+their lives to get up to speed, a popular — nearly vital — piece of software is
+completely shrouded in frustration.</p>
+
+<p>No one has a single solution to increasing diversity in technology, but, across
+all diversity lines, it’s not going to be any easier if we keep building more
+tools like Git.  It not only ignores a lot of what we know about user interface
+design, but comes from a place that is distinctly a “boys-club” - specifically
+a predominately-white-boys-who-dedicate-their-lives-to-kernel-wars club. And
+it’s not that I don’t appreciate Linux or the <abbr title="Free and Open Source Software">FOSS</abbr> community, whose many
+members dedicate themselves to expertise and volunteer-made software. It’s
+exactly <em>because</em> I appreciate the <abbr title="Free and Open Source Software">FOSS</abbr> community that I want to see its
+contributions, which are supposed to be about freedom or something, be
+accessible to those of us who can’t afford to be well versed in the intricacies
+of obscure documentation and deep computer science theory. I want beginners,
+and especially people without the privilege of access to supportive education
+and environments, to be able to contribute and learn the way we make software.
+The community that made Git, by being homogeneous, made design decisions that
+not only aversely affect <a href="http://geekfeminism.org/2012/09/29/quick-hit-how-git-shows-the-patriarchal-nature-of-the-software-industry/">trans
+lives</a>
+and <a href="http://gizmodo.com/5980842/there-is-blatant-racist-and-sexist-language-in-github-code">women and
+minorities</a>,
+but design decision that just make Git a pain to master. By being such a
+product of single-mindedness, Git has made it a tough experience for the rest
+of us. Diverse teams bring diverse, broad perspectives to software and if we’re
+going to fulfill Github’s vision for social coding, it’s going to take a more
+inclusive, committed culture.</p>
+
+<h1 id="it-isnt-just-git">It Isn’t Just Git</h1>
+
+<p>I picked on Git here because it’s a famous example, and because I’ve become an
+amateur Git user this summer, so it’s been on my mind. Git represents a wildly
+successful and simultaneously problematic history: one in which men make things
+for men (I think <a href="http://www.theatlantic.com/technology/archive/2015/06/clippy-the-microsoft-office-assistant-is-the-patriarchys-fault/396653/">Microsoft already taught us the perils of this once
+before</a>.)
+White people build things for white people. So on and so forth, ad nauseam.
+When you have a culture that’s been reproducing itself by bringing in more of
+the same people to build more of the same things, you don’t have a culture
+that’s making tech for everyone, you have an incredibly smart industry that’s
+making things for themselves. And it’s not very revolutionary when these people
+have been privileged for centuries by making the world in their image.  Whether
+this is because of where it came from, or the work that’s being built on top of
+it, or the awful design decisions made for it, Git stands as shining example of
+the crap we get when we don’t have diversity in tech. Going forward, we need to
+be intentional about diversity in tech, and realize that we’ll do better only
+when we acknowledge that rampant other-ing and discrimination is destroying us,
+in and out of tech. We can do <strong>so much better</strong>.</p>
+
+<p><strong>Note</strong>: Github is a Gold sponsor for the non-profit
+<a href="http://www.code2040.org/mission/">CODE2040</a>, so they are still trying to up
+their diversity in the company. But I wrote this post because I think it’s
+important to understand how we got here in the first place.</p>
+
+
+        <br/>
+        <span style="float: right;">
+            — Andres Cuervo
+        </span>
+    </article>
+</section>
+<section class="social-stuff">
+    <h1 style="display: inline;">Want to share this post?</h1>
+    <br/>
+<div class="social-buttons">
+    <Facebook >
+    <div class="fb-like"
+        data-href="http://cwervo.com/thoughts/2015/08/a-political-history-of-git.html"
+        data-layout="button_count" data-action="like" data-show-faces="true"
+        data-share="true">
+    </div>
+    <a class="twitter-share-button"
+        href="https://twitter.com/intent/tweet?url=http://cwervo.com/thoughts/2015/08/a-political-history-of-git.html&text=I just read:&via=acwervo">Tweet this!</a>
+    <a href="https://news.ycombinator.com/submit" class="hn-button" data-title="A Political History of Git" data-url="http://cwervo.com/thoughts/2015/08/a-political-history-of-git.html" data-count="horizontal">Vote on Hacker News</a>
+    <script type="text/javascript">var HN=[];HN.factory=function(e){return function(){HN.push([e].concat(Array.prototype.slice.call(arguments,0)))};},HN.on=HN.factory("on"),HN.once=HN.factory("once"),HN.off=HN.factory("off"),HN.emit=HN.factory("emit"),HN.load=function(){var e="hn-button.js";if(document.getElementById(e))return;var t=document.createElement("script");t.id=e,t.src="//hn-button.herokuapp.com/hn-button.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)},HN.load();</script>
+    <a data-pocket-label="pocket" data-pocket-count="horizontal" class="pocket-btn" data-lang="en"></a>
+    <script type="text/javascript">!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
+</div>
+
+</section>
+<!-- <section id="comments"> -->
+<!--      -->
+<!-- </section> -->
+
+        
+                                  </section>
+
+                                  <!-- Click Tracking -->
+                                  <a title="Real Time Web Analytics" href="https://clicky.com/100865482"></a>
+                                  <script type="text/javascript">
+                                      var clicky_site_ids = clicky_site_ids || [];
+                                      clicky_site_ids.push(100865482);
+                                      (function() {
+                                          var s = document.createElement('script');
+                                          s.type = 'text/javascript';
+                                          s.async = true;
+                                          s.src = '//static.getclicky.com/js';
+                                          ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+                                      })();
+                                  </script>
+                                  <noscript></noscript>
+
+
+                              </body>
+

@@ -1,0 +1,322 @@
+<!doctype html>
+
+<html prefix="og: http://ogp.me/ns#">
+<meta charset="utf-8">
+
+<!-- Looking at the 'ol source code, huh? Well lucky you! Here's an easer egg:
+    cwervo.com/easter-egg
+          __
+      .-*)) `*-.
+     /*  ((*   *'.
+    |   *))  *   *\
+    | *  ((*   *  /
+     \  *))  *  .'
+ jgs  '-.((*_.-'
+
+ASCII art courtesy of: http://www.chris.com/ascii/index.php?art=holiday/easter
+-->
+
+<!-- Always force latest IE rendering engine or request Chrome Frame -->
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta name="viewport" content="width=device-width" ></meta>
+<link rel="shortcut icon" href="/images/favicon-1846b7e2.png">
+
+<!-- Use title if it's in the page YAML frontmatter -->
+<title>cwervo.com - Design Best Practices Are Holding You Back</title>
+
+<!-- Facebook Open Graph Protocol Stuff -->
+<meta property="og:title" content="Design Best Practices Are Holding You Back" />
+<meta property="og:site_name" content="Cwervo.com - Thoughts Blog">
+<meta property="og:type" content="article" />
+<meta property="og:description" content="An exploration of what diversity, accesibilty, and adaptibility mean against the concept of best practices." />
+<meta property="og:url" content="http://www.cwervo.com/thoughts/2016/04/best-practices-are.html" />
+<meta property="og:image" content="http://www.cwervo.com/images/big-logo-33b7b0ea.png" />
+
+<link href="/stylesheets/normalize-7efa2312.css" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/main-97945ec7.css" rel="stylesheet" type="text/css" />
+
+
+
+<script src="/javascripts/all-5af674d6.js" type="text/javascript"></script>
+
+<script src="/javascripts/twitter-share-button-8a10f132.js" type="text/javascript"></script>
+
+
+<body class="thoughts thoughts_2016 thoughts_2016_04 thoughts_2016_04_best-practices-are">
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=876359652399612";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+
+<nav>
+    <ul>
+        <div class="close-container">
+            <li class="close"><a href="##close" id="close" class="close">x</a></li>
+        </div>
+        <div class="nav-list-container">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About me</a></li>
+            <li><a href="/portfolio/">Portfolio</a></li>
+            <li><a href="/case-studies/">Case studies</a></li>
+            <!-- <li><a href="/projects/">'no projects, just case studies???'</a></li> -->
+            <li><a href="/thoughts/">Thoughts</a></li>
+            <li><a href="/contact/">Contact</a></li>
+        </div>
+    </ul>
+</nav>
+
+<section class="content-wrapper">
+    <section class="content">
+            <!--
+    <aside>
+        Andres Cuervo
+
+            <h4>5 Most Recent Posts!</h4>
+            <hr>
+
+                <article class="article-sample" style="background-color: #222; padding: 0.2em 0.4em; border-radius: 10px; witdth: 100%">
+                    <h5>
+                        <a style="float: right" href="/thoughts/2017/01/notes-on-fb-360.html">Notes on FB 360</a>
+                        <br>
+                        <time style="float: right" >Jan  9 2017</time>
+                    </h5>
+
+                </article>
+                <article class="article-sample" style="background-color: #222; padding: 0.2em 0.4em; border-radius: 10px; witdth: 100%">
+                    <h5>
+                        <a style="float: right" href="/thoughts/2016/04/google-doc-navigation-tips.html">Back To The Top</a>
+                        <br>
+                        <time style="float: right" >Apr 15 2016</time>
+                    </h5>
+
+                </article>
+                <article class="article-sample" style="background-color: #222; padding: 0.2em 0.4em; border-radius: 10px; witdth: 100%">
+                    <h5>
+                        <a style="float: right" href="/thoughts/2016/04/best-practices-are.html">Design Best Practices Are Holding You Back</a>
+                        <br>
+                        <time style="float: right" >Apr 13 2016</time>
+                    </h5>
+
+                </article>
+                <article class="article-sample" style="background-color: #222; padding: 0.2em 0.4em; border-radius: 10px; witdth: 100%">
+                    <h5>
+                        <a style="float: right" href="/thoughts/2016/04/making-data-meaningful.html">Making Data Meaningful</a>
+                        <br>
+                        <time style="float: right" >Apr  6 2016</time>
+                    </h5>
+
+                </article>
+                <article class="article-sample" style="background-color: #222; padding: 0.2em 0.4em; border-radius: 10px; witdth: 100%">
+                    <h5>
+                        <a style="float: right" href="/thoughts/2016/04/antidisciplinary-project-based-learning-and-you.html">Breaking Project Based Learning And The Concept Of Academic Disciplines</a>
+                        <br>
+                        <time style="float: right" >Apr  5 2016</time>
+                    </h5>
+
+                </article>
+    </aside> -->
+    <article>
+        <h1 class="blog-title">Design Best Practices Are Holding You Back</h1>
+        <h3 class="blog-description">An exploration of what diversity, accesibilty, and adaptibility mean against the concept of best practices.</h3>
+        <h3 class="blog-tags">tags: UX, empathetic design</h3>
+        <div class="blog-date">
+            Apr 13, 2016
+        </div>
+        <hr>
+        <p>Okay, cool, now that I have your attention with the clickbait-y title, let’s
+unpack what I actually mean: best practices, as in “design patterns we use
+because they work well for a target segment of users”, produce solid, but
+narrowly accessible designs when it comes to creating robust, usable designs.</p>
+
+<h1 id="the-mindset-problem-of-best-practices">The Mindset Problem Of Best Practices</h1>
+
+<p>It’s not that best practices are harmful in and of themselves; let’s be careful
+not to throw the baby out with the bathwater! If you’re strapped for time,
+can’t push for user studies in your project, don’t know something about your
+target demographic but need a mock up, like, <em>yesterday</em>, or can’t incorporate
+any of the strategies I’m going to talk about later, by all means please use
+best practices: they’ll save you and your users headaches. No, what I worry
+about is that best practices reinforce the idea that there is always a correct
+interface solution. Okay, perhaps sometimes there’s a clear <strong>wrong</strong> answer:
+what color do we make this text? Well, certainly don’t make it the same color
+as the background it’s on if it doesn’t have a contrasting outline stroke. How
+big do we make this button? You definitely won’t want to make it so small as to
+be unreadable at average viewing distance for a given platform. So we can throw
+some especially egregious practices out with confidence, but best practices
+extend this thinking to coming up with solutions, and in that process uphold a
+troubling myth: they encourage conceptualizing some practices as a universal
+design pattern, when in reality design patterns and best practices, all of
+them—because this industry and its users have  predominately been white, well
+off, cis, able-bodied men—are designs optimized to the whims of a very specific
+idea of a common user, which hinders consideration of multiple user
+perspectives from the get-go. Note the language: I said “common” user, and
+common, for your current, narrow user base, is not the same thing as
+“universal”, not by a long shot.</p>
+
+<p>Many design choices, if you would like them to be accessible, should be broken
+based on the user: your minimalist button may be tantalizingly “on brand” and
+less intrusive and more intuitive to a child with good vision, but for an older
+user, especially those still grasping for skeuomorphism, particularly spatial
+metaphors, you should at least consider adding in more contrast and shading, at
+least making that an option. Suppose you’re building a social media feed (oh
+goody, <em>another</em> social media product!): when a user includes an image in their
+post, you include the image before the text, and group some other users’
+commentary below the picture in the order of the feed. That’s great for someone
+who wants to get at this type of media easily, but what about the person who’s
+trying to avoid violent or NSFW images, or someone who only uses a screen
+reader, or someone who honestly just wants to see text posts right now—they can
+catch up on their friends’ pretty pictures some other time. In all these cases,
+as hard as they may be to predict, the experience would change dramatically,
+for the better, if the system could adapt to provide these conveniences. And
+that’s really what accessible, usable design is: a level of convenience as
+perceived by a user. That comes from a number of factors of course: intuition,
+ability to interpret information on the fly, prior exposure, and familiarity
+with common design patterns and practices in general, to name a few factors.
+The world is not simply inaccessible to some because some people are, across a
+diverse number of factors, defective/divergent/weird: it has to do with who we
+consider normal, and the face that the world has, by design, systematically
+proved to be more <em><strong>convenient</strong></em> for some (white, heterosexual, male) people.
+In the same way another person’s trash is another person’s treasure, one
+person’s best practice is someone else’s usability nightmare.</p>
+
+<!--- *** break *** --->
+
+<h1 id="okay-so-what-make-accessible-design">Okay, So What Make Accessible Design?</h1>
+
+<p>In a word: adaptivity. Before I get into it, though, this advice comes with two
+very important caveats. (1) You don’t need to make everything adaptive, and (2)
+sometimes you don’t need this fidelity of accessibility.</p>
+
+<p>(1) Let’s take a complicated menu labyrinth, think Adobe Photoshop, as an
+example case. If you have dozens, or even hundreds of setting and pull down
+menus, it seems pretty monumental to ask that the IA (information architecture)
+be rearranged and visualized into a fully scalable, explorable, somehow
+intuitive interface (although, if that would meet all your users’ need, go for
+it!) Instead, user studies should enter the product design cycle here: you need
+to identify the top subset of features people use most frequently, and note how
+those interface well, or don’t, with people across various axes of difference.
+When you have this information, design these interfaces to be adaptive—in
+addition, let users customize the rest of those dozens or hundred member menus,
+they’ll have the confidence and/or patience to do so once you give them a top
+layer of completely adaptive tools to work with, because most of the time
+that’s all they’ll need.</p>
+
+<p>(2) Say you’re making a GUI for yourself and your 3 teammates to access your
+proprietary data set a little more intuitively for the duration of your current
+project; you probably don’t need it to be any more accessible than is necessary
+for those on that specific team to interact with it, because it’s a finite
+interface for a very specific set of people with a predictable set of needs,
+abilities, and affordance expectations.</p>
+
+<p>But, for those applications that may truly affect people’s lives every day, or
+which people will interact with on the order of millions of users, we need a
+model for understanding and interpreting users’ needs intelligently if we ever
+hope of covering more than just the common accessibility and usability spectrum
+of best practices. What options do we have here?</p>
+
+<h2 id="adaptivity-via-user-preferences">Adaptivity Via User Preferences</h2>
+
+<p>While a less robust option than my research interests (which I’ll outline
+below), user preferences can be a great opening option into the using radical
+user choice as a model for accessibility. The concept of user preferences sort
+of hit a wall in the early days of computing, not gaining much other than
+tooltips and some iconography; I haven’t seen anything to indicate they’ve
+changed much since. Examples are nice, so let’s take the iPhone, for instance.
+It’s a UX marvel: usable from age 2 to 200, but the reason for that is a series
+of intentionally design, and researched, incredible “best practices”, such that
+the phone is usable right out of the box. I’d venture to say most people don’t
+even venture into most of the settings. The reason is probably two fold: as
+complex a machine as the iPhone is, its presets are <em>almost good enough</em> for
+<em>many</em> people. And those qualifiers are important: there are many for who
+certain settings trigger accessibility issues, or for whom everyday tasks are
+needlessly drawn out. In these cases, when our goal as users is to achieve
+something in a way that makes sense to our mental model, the rote and manual
+way is with user preferences. Unfortunately, the settings are an IA mess: some
+apps get their own social and privacy settings, some don’t, some do get special
+certificate information, some may not, some apps may have their own social
+options, some social options may be disabled centrally from the settings, and
+some of that may be controlled by each proprietary social app in turn. If you
+want develop a new vibration to increase your awareness of haptic feedback,
+turn off all your animations, or set up parental controls, you’ll have to spend
+some time getting to know the artificial laundry list that is the iPhone
+settings interface. There are many unanswered design questions here ripe for
+study and overhaul: how do we organize setting hierarchies, is there a better
+format than the list or, its cousin, the dropdown menu, for accessing
+preferences? I don’t pretend to know the answers, but I do hope if you’re
+interested in this area, you’ll be able to share the answers with the rest of
+us!</p>
+
+<h2 id="adaptivity-via-intelligent-systems">Adaptivity Via Intelligent Systems</h2>
+
+<p>Adaptive User Interfaces (AUI’s) are the mainstay of the research I want to do.
+Effectively, I want to build systems that can predict the need for, and
+intelligently create, conveniences (like accessibility features, but even
+broader, meaning more useful) to adapt a user interface to a particular user
+over time. The research area here is actually still really open: there are no
+“best practices”, we just have to write them and even then there’s no single
+right way to design for all. Whether it’s creating personas for people along
+axes of difference, testing small interfaces for variable dependency on them,
+or exploring how how we communicate changes and how to make that a more
+memorable, usable, interesting experience.</p>
+
+<p>In the coming year I’ll be preparing, reading about, and experimenting with AUI
+design, specifically in the domain of educational technology, and effectively
+this is a write up of why I think unaided design, if our goal is full
+accessibility, isn’t up to the task in quite the same way. If you have thoughts, resources, tips, or
+just want to say hi, feel free to <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#097;&#110;&#100;&#114;&#101;&#115;&#099;&#117;&#101;&#114;&#118;&#111;&#114;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">contact me</a>.</p>
+
+        <br/>
+        <span style="float: right;">
+            — Andres Cuervo
+        </span>
+    </article>
+</section>
+<section class="social-stuff">
+    <h1 style="display: inline;">Want to share this post?</h1>
+    <br/>
+<div class="social-buttons">
+    <Facebook >
+    <div class="fb-like"
+        data-href="http://cwervo.com/thoughts/2016/04/best-practices-are.html"
+        data-layout="button_count" data-action="like" data-show-faces="true"
+        data-share="true">
+    </div>
+    <a class="twitter-share-button"
+        href="https://twitter.com/intent/tweet?url=http://cwervo.com/thoughts/2016/04/best-practices-are.html&text=I just read:&via=acwervo">Tweet this!</a>
+    <a href="https://news.ycombinator.com/submit" class="hn-button" data-title="Design Best Practices Are Holding You Back" data-url="http://cwervo.com/thoughts/2016/04/best-practices-are.html" data-count="horizontal">Vote on Hacker News</a>
+    <script type="text/javascript">var HN=[];HN.factory=function(e){return function(){HN.push([e].concat(Array.prototype.slice.call(arguments,0)))};},HN.on=HN.factory("on"),HN.once=HN.factory("once"),HN.off=HN.factory("off"),HN.emit=HN.factory("emit"),HN.load=function(){var e="hn-button.js";if(document.getElementById(e))return;var t=document.createElement("script");t.id=e,t.src="//hn-button.herokuapp.com/hn-button.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)},HN.load();</script>
+    <a data-pocket-label="pocket" data-pocket-count="horizontal" class="pocket-btn" data-lang="en"></a>
+    <script type="text/javascript">!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
+</div>
+
+</section>
+<!-- <section id="comments"> -->
+<!--      -->
+<!-- </section> -->
+
+        
+                                  </section>
+
+                                  <!-- Click Tracking -->
+                                  <a title="Real Time Web Analytics" href="https://clicky.com/100865482"></a>
+                                  <script type="text/javascript">
+                                      var clicky_site_ids = clicky_site_ids || [];
+                                      clicky_site_ids.push(100865482);
+                                      (function() {
+                                          var s = document.createElement('script');
+                                          s.type = 'text/javascript';
+                                          s.async = true;
+                                          s.src = '//static.getclicky.com/js';
+                                          ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+                                      })();
+                                  </script>
+                                  <noscript></noscript>
+
+
+                              </body>
+
